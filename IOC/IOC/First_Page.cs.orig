@@ -19,8 +19,13 @@ namespace IOC
         private void startButton_Click(object sender, EventArgs e)
         {
             this.Hide();
+<<<<<<< Updated upstream
             SecondPage sp = new SecondPage();
             sp.ShowDialog();
+=======
+            SecondPage sc = new SecondPage();
+            sc.ShowDialog();
+>>>>>>> Stashed changes
         }
     }
 }

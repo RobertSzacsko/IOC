@@ -50,9 +50,13 @@
             // startButton
             // 
             this.startButton.BackgroundImage = global::IOC.Properties.Resources.startButton;
+<<<<<<< Updated upstream
             this.startButton.Location = new System.Drawing.Point(1164, 0);
-            this.startButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.startButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+=======
+            this.startButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.startButton.Location = new System.Drawing.Point(873, 0);
+>>>>>>> Stashed changes
             this.startButton.Name = "startButton";
             this.startButton.Size = new System.Drawing.Size(265, 220);
             this.startButton.TabIndex = 1;
