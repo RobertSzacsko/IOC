@@ -47,11 +47,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Paper_page.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="First_Page.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Paper_page.Designer.cs">
       <DependentUpon>Paper_page.cs</DependentUpon>
+    </Compile>
     <Compile Include="First_Page.Designer.cs">
       <DependentUpon>First_Page.cs</DependentUpon>
     </Compile>
