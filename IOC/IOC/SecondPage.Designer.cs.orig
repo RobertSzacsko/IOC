@@ -42,7 +42,6 @@
             this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-<<<<<<< HEAD
             // plasticButton
             // 
             this.plasticButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("plasticButton.BackgroundImage")));
@@ -54,56 +53,31 @@
             this.plasticButton.Size = new System.Drawing.Size(137, 76);
             this.plasticButton.TabIndex = 0;
             this.plasticButton.UseVisualStyleBackColor = true;
+            this.plasticButton.Click += new System.EventHandler(this.plasticButton_Click);
             this.plasticButton.MouseHover += new System.EventHandler(this.plasticButton_MouseHover);
             // 
             // paperButton
             // 
             this.paperButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("paperButton.BackgroundImage")));
             this.paperButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.paperButton.Location = new System.Drawing.Point(652, 10);
+            this.paperButton.Location = new System.Drawing.Point(820, 0);
             this.paperButton.Margin = new System.Windows.Forms.Padding(2);
             this.paperButton.Name = "paperButton";
-            this.paperButton.Size = new System.Drawing.Size(150, 76);
+            this.paperButton.Size = new System.Drawing.Size(263, 76);
             this.paperButton.TabIndex = 1;
             this.paperButton.UseVisualStyleBackColor = true;
+            this.paperButton.Click += new System.EventHandler(this.paperButton_Click);
             this.paperButton.MouseHover += new System.EventHandler(this.paperButton_MouseHover);
-=======
-            // button1
-            // 
-            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Location = new System.Drawing.Point(2, 0);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(137, 76);
-            this.button1.TabIndex = 0;
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // button2
-            // 
-            this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
-            this.button2.Location = new System.Drawing.Point(652, 10);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(150, 76);
-            this.button2.TabIndex = 1;
-            this.button2.UseVisualStyleBackColor = true;
->>>>>>> dasdas
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.SystemColors.Window;
-            this.label1.Font = new System.Drawing.Font("Segoe Print", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label1.Location = new System.Drawing.Point(684, 99);
+            this.label1.Font = new System.Drawing.Font("Segoe Print", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label1.Location = new System.Drawing.Point(969, 78);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-<<<<<<< HEAD
-            this.label1.Size = new System.Drawing.Size(91, 33);
-=======
-            this.label1.Size = new System.Drawing.Size(75, 33);
->>>>>>> dasdas
+            this.label1.Size = new System.Drawing.Size(114, 43);
             this.label1.TabIndex = 2;
             this.label1.Text = "HARTIE";
             // 
@@ -111,12 +85,11 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.SystemColors.Window;
-            this.label2.Font = new System.Drawing.Font("Segoe Print", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label2.Location = new System.Drawing.Point(25, 78);
+            this.label2.Font = new System.Drawing.Font("Segoe Print", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label2.Location = new System.Drawing.Point(-6, 78);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-<<<<<<< HEAD
-            this.label2.Size = new System.Drawing.Size(99, 33);
+            this.label2.Size = new System.Drawing.Size(126, 43);
             this.label2.TabIndex = 3;
             this.label2.Text = "PLASTIC";
             // 
@@ -124,7 +97,7 @@
             // 
             this.gameButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("gameButton.BackgroundImage")));
             this.gameButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.gameButton.Location = new System.Drawing.Point(652, 422);
+            this.gameButton.Location = new System.Drawing.Point(933, 570);
             this.gameButton.Margin = new System.Windows.Forms.Padding(2);
             this.gameButton.Name = "gameButton";
             this.gameButton.Size = new System.Drawing.Size(150, 89);
@@ -137,7 +110,7 @@
             // 
             this.glassButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("glassButton.BackgroundImage")));
             this.glassButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.glassButton.Location = new System.Drawing.Point(9, 422);
+            this.glassButton.Location = new System.Drawing.Point(2, 561);
             this.glassButton.Margin = new System.Windows.Forms.Padding(2);
             this.glassButton.Name = "glassButton";
             this.glassButton.Size = new System.Drawing.Size(130, 89);
@@ -145,46 +118,16 @@
             this.glassButton.Text = "x";
             this.glassButton.UseVisualStyleBackColor = true;
             this.glassButton.MouseHover += new System.EventHandler(this.glassButton_MouseHover);
-=======
-            this.label2.Size = new System.Drawing.Size(76, 33);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Plastic";
-            // 
-            // button3
-            // 
-            this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
-            this.button3.Location = new System.Drawing.Point(652, 422);
-            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(150, 89);
-            this.button3.TabIndex = 4;
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // button4
-            // 
-            this.button4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button4.BackgroundImage")));
-            this.button4.Location = new System.Drawing.Point(9, 422);
-            this.button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(130, 89);
-            this.button4.TabIndex = 5;
-            this.button4.UseVisualStyleBackColor = true;
->>>>>>> dasdas
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.SystemColors.Window;
-            this.label3.Font = new System.Drawing.Font("Segoe Print", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label3.Location = new System.Drawing.Point(35, 385);
+            this.label3.Font = new System.Drawing.Font("Segoe Print", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label3.Location = new System.Drawing.Point(-4, 526);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-<<<<<<< HEAD
-            this.label3.Size = new System.Drawing.Size(86, 33);
-=======
-            this.label3.Size = new System.Drawing.Size(66, 33);
->>>>>>> dasdas
+            this.label3.Size = new System.Drawing.Size(109, 43);
             this.label3.TabIndex = 6;
             this.label3.Text = "STICLA";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -193,56 +136,36 @@
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.SystemColors.Window;
-            this.label4.Font = new System.Drawing.Font("Segoe Print", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label4.Location = new System.Drawing.Point(701, 385);
+            this.label4.Font = new System.Drawing.Font("Segoe Print", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label4.Location = new System.Drawing.Point(1014, 526);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-<<<<<<< HEAD
-            this.label4.Size = new System.Drawing.Size(54, 33);
-=======
-            this.label4.Size = new System.Drawing.Size(47, 33);
->>>>>>> dasdas
+            this.label4.Size = new System.Drawing.Size(69, 43);
             this.label4.TabIndex = 7;
             this.label4.Text = "JOC";
             // 
             // backButton
             // 
-<<<<<<< HEAD
             this.backButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("backButton.BackgroundImage")));
             this.backButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.backButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.backButton.Location = new System.Drawing.Point(343, 27);
+            this.backButton.Location = new System.Drawing.Point(537, 618);
             this.backButton.Margin = new System.Windows.Forms.Padding(2);
             this.backButton.Name = "backButton";
             this.backButton.Size = new System.Drawing.Size(56, 41);
             this.backButton.TabIndex = 8;
             this.backButton.UseVisualStyleBackColor = true;
             this.backButton.Click += new System.EventHandler(this.backButton_Click);
-=======
-            this.button5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button5.BackgroundImage")));
-            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button5.Location = new System.Drawing.Point(343, 27);
-            this.button5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(56, 41);
-            this.button5.TabIndex = 8;
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
->>>>>>> dasdas
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.SystemColors.Window;
-            this.label5.Font = new System.Drawing.Font("Segoe Script", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label5.Location = new System.Drawing.Point(341, 0);
+            this.label5.Font = new System.Drawing.Font("Segoe Script", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label5.Location = new System.Drawing.Point(424, 619);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-<<<<<<< HEAD
-            this.label5.Size = new System.Drawing.Size(71, 25);
-=======
-            this.label5.Size = new System.Drawing.Size(62, 25);
->>>>>>> dasdas
+            this.label5.Size = new System.Drawing.Size(109, 40);
             this.label5.TabIndex = 9;
             this.label5.Text = "INAPOI";
             // 
@@ -250,12 +173,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< Updated upstream
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-<<<<<<< HEAD
-            this.ClientSize = new System.Drawing.Size(1084, 661);
-=======
             this.ClientSize = new System.Drawing.Size(813, 537);
->>>>>>> dasdas
+=======
+            this.BackgroundImage = global::IOC.Properties.Resources.second;
+            this.ClientSize = new System.Drawing.Size(1084, 661);
+>>>>>>> Stashed changes
             this.Controls.Add(this.label5);
             this.Controls.Add(this.backButton);
             this.Controls.Add(this.label4);
@@ -264,15 +188,9 @@
             this.Controls.Add(this.gameButton);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-<<<<<<< HEAD
             this.Controls.Add(this.paperButton);
             this.Controls.Add(this.plasticButton);
             this.Margin = new System.Windows.Forms.Padding(2);
-=======
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
->>>>>>> dasdas
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(829, 576);
             this.MinimumSize = new System.Drawing.Size(829, 576);

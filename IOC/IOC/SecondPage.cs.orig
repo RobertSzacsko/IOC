@@ -53,7 +53,6 @@ namespace IOC
             START st = new START();
             st.ShowDialog();
         }
-<<<<<<< HEAD
         private void gameButton_MouseHover(object sender, EventArgs e)
         {
             SoundPlayer player2 = new SoundPlayer();
@@ -75,16 +74,20 @@ namespace IOC
             player2.Play();
         }
 
-    }
-=======
-
-        private void button5_Click(object sender, EventArgs e)
+<<<<<<< Updated upstream
+        private void paperButton_Click(object sender, EventArgs e)
         {
             this.Hide();
-            START start = new START();
-            start.Show();
+            Paper_page pp = new Paper_page();
+=======
+        private void plasticButton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            PlasticPage pp = new PlasticPage();
+>>>>>>> Stashed changes
+            pp.ShowDialog();
         }
->>>>>>> dasdas
+    }
     }
 
    

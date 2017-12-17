@@ -53,16 +53,17 @@
             this.plasticButton.Size = new System.Drawing.Size(137, 76);
             this.plasticButton.TabIndex = 0;
             this.plasticButton.UseVisualStyleBackColor = true;
+            this.plasticButton.Click += new System.EventHandler(this.plasticButton_Click);
             this.plasticButton.MouseHover += new System.EventHandler(this.plasticButton_MouseHover);
             // 
             // paperButton
             // 
             this.paperButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("paperButton.BackgroundImage")));
             this.paperButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.paperButton.Location = new System.Drawing.Point(652, 10);
+            this.paperButton.Location = new System.Drawing.Point(820, 0);
             this.paperButton.Margin = new System.Windows.Forms.Padding(2);
             this.paperButton.Name = "paperButton";
-            this.paperButton.Size = new System.Drawing.Size(150, 76);
+            this.paperButton.Size = new System.Drawing.Size(263, 76);
             this.paperButton.TabIndex = 1;
             this.paperButton.UseVisualStyleBackColor = true;
             this.paperButton.Click += new System.EventHandler(this.paperButton_Click);
@@ -72,11 +73,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.SystemColors.Window;
-            this.label1.Font = new System.Drawing.Font("Segoe Print", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label1.Location = new System.Drawing.Point(684, 99);
+            this.label1.Font = new System.Drawing.Font("Segoe Print", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label1.Location = new System.Drawing.Point(969, 78);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(91, 33);
+            this.label1.Size = new System.Drawing.Size(114, 43);
             this.label1.TabIndex = 2;
             this.label1.Text = "HARTIE";
             // 
@@ -84,11 +85,11 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.SystemColors.Window;
-            this.label2.Font = new System.Drawing.Font("Segoe Print", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label2.Location = new System.Drawing.Point(25, 78);
+            this.label2.Font = new System.Drawing.Font("Segoe Print", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label2.Location = new System.Drawing.Point(-6, 78);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(99, 33);
+            this.label2.Size = new System.Drawing.Size(126, 43);
             this.label2.TabIndex = 3;
             this.label2.Text = "PLASTIC";
             // 
@@ -96,7 +97,7 @@
             // 
             this.gameButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("gameButton.BackgroundImage")));
             this.gameButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.gameButton.Location = new System.Drawing.Point(652, 422);
+            this.gameButton.Location = new System.Drawing.Point(933, 570);
             this.gameButton.Margin = new System.Windows.Forms.Padding(2);
             this.gameButton.Name = "gameButton";
             this.gameButton.Size = new System.Drawing.Size(150, 89);
@@ -109,7 +110,7 @@
             // 
             this.glassButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("glassButton.BackgroundImage")));
             this.glassButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.glassButton.Location = new System.Drawing.Point(9, 422);
+            this.glassButton.Location = new System.Drawing.Point(2, 561);
             this.glassButton.Margin = new System.Windows.Forms.Padding(2);
             this.glassButton.Name = "glassButton";
             this.glassButton.Size = new System.Drawing.Size(130, 89);
@@ -122,11 +123,11 @@
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.SystemColors.Window;
-            this.label3.Font = new System.Drawing.Font("Segoe Print", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label3.Location = new System.Drawing.Point(35, 385);
+            this.label3.Font = new System.Drawing.Font("Segoe Print", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label3.Location = new System.Drawing.Point(-4, 526);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(86, 33);
+            this.label3.Size = new System.Drawing.Size(109, 43);
             this.label3.TabIndex = 6;
             this.label3.Text = "STICLA";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -135,11 +136,11 @@
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.SystemColors.Window;
-            this.label4.Font = new System.Drawing.Font("Segoe Print", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label4.Location = new System.Drawing.Point(701, 385);
+            this.label4.Font = new System.Drawing.Font("Segoe Print", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label4.Location = new System.Drawing.Point(1014, 526);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(54, 33);
+            this.label4.Size = new System.Drawing.Size(69, 43);
             this.label4.TabIndex = 7;
             this.label4.Text = "JOC";
             // 
@@ -148,7 +149,7 @@
             this.backButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("backButton.BackgroundImage")));
             this.backButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.backButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.backButton.Location = new System.Drawing.Point(343, 27);
+            this.backButton.Location = new System.Drawing.Point(537, 618);
             this.backButton.Margin = new System.Windows.Forms.Padding(2);
             this.backButton.Name = "backButton";
             this.backButton.Size = new System.Drawing.Size(56, 41);
@@ -160,11 +161,11 @@
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.SystemColors.Window;
-            this.label5.Font = new System.Drawing.Font("Segoe Script", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label5.Location = new System.Drawing.Point(341, 0);
+            this.label5.Font = new System.Drawing.Font("Segoe Script", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label5.Location = new System.Drawing.Point(424, 619);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(71, 25);
+            this.label5.Size = new System.Drawing.Size(109, 40);
             this.label5.TabIndex = 9;
             this.label5.Text = "INAPOI";
             // 
@@ -172,7 +173,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImage = global::IOC.Properties.Resources.second;
             this.ClientSize = new System.Drawing.Size(813, 537);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.backButton);

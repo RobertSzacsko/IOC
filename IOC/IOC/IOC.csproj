@@ -58,6 +58,12 @@
     <Compile Include="First_Page.Designer.cs">
       <DependentUpon>First_Page.cs</DependentUpon>
     </Compile>
+    <Compile Include="PlasticPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PlasticPage.Designer.cs">
+      <DependentUpon>PlasticPage.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sticla.cs">
@@ -78,16 +84,13 @@
     <Compile Include="SecondPage.Designer.cs">
       <DependentUpon>SecondPage.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="PlasticPage.resx">
+      <DependentUpon>PlasticPage.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <EmbeddedResource Include="SecondPage.resx">
       <DependentUpon>SecondPage.cs</DependentUpon>
     </EmbeddedResource>
@@ -114,6 +117,9 @@
     <None Include="images\ImagineInapoi.jpg" />
     <None Include="images\hartie_din_copaci.jpg" />
     <None Include="images\paper_image.jpg" />
+    <None Include="images\secondpage.jpg" />
+    <None Include="images\second.jpg" />
+    <None Include="images\Untitled.png" />
     <None Include="images\deforestation.png" />
     <None Include="images\crying_tree.jpg" />
     <Content Include="recs\gameImage.wav">

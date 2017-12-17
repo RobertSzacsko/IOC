@@ -58,20 +58,23 @@
     <Compile Include="First_Page.Designer.cs">
       <DependentUpon>First_Page.cs</DependentUpon>
     </Compile>
+    <Compile Include="PlasticPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PlasticPage.Designer.cs">
+      <DependentUpon>PlasticPage.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-<<<<<<< HEAD
-    <EmbeddedResource Include="Paper_page.resx">
-      <DependentUpon>Paper_page.cs</DependentUpon>
-    </EmbeddedResource>
-=======
     <Compile Include="Sticla.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Sticla.Designer.cs">
       <DependentUpon>Sticla.cs</DependentUpon>
     </Compile>
->>>>>>> dasdas
+    <EmbeddedResource Include="Paper_page.resx">
+      <DependentUpon>Paper_page.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="First_Page.resx">
       <DependentUpon>First_Page.cs</DependentUpon>
     </EmbeddedResource>
@@ -81,16 +84,13 @@
     <Compile Include="SecondPage.Designer.cs">
       <DependentUpon>SecondPage.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="PlasticPage.resx">
+      <DependentUpon>PlasticPage.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <EmbeddedResource Include="SecondPage.resx">
       <DependentUpon>SecondPage.cs</DependentUpon>
     </EmbeddedResource>
@@ -114,6 +114,17 @@
     <None Include="images\first_page_background.jpg" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< Updated upstream
+    <None Include="images\ImagineInapoi.jpg" />
+    <None Include="images\hartie_din_copaci.jpg" />
+    <None Include="images\paper_image.jpg" />
+    <None Include="images\deforestation.png" />
+    <None Include="images\crying_tree.jpg" />
+=======
+    <None Include="images\secondpage.jpg" />
+    <None Include="images\second.jpg" />
+    <None Include="images\Untitled.png" />
+>>>>>>> Stashed changes
     <Content Include="recs\gameImage.wav">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -135,6 +146,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\colored_paper.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\newspapaer %281%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
