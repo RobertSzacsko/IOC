@@ -74,6 +74,12 @@ namespace IOC
             player2.Play();
         }
 
+        private void paperButton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Paper_page pp = new Paper_page();
+            pp.ShowDialog();
+        }
     }
     }
 

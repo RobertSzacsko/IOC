@@ -65,6 +65,7 @@
             this.paperButton.Size = new System.Drawing.Size(150, 76);
             this.paperButton.TabIndex = 1;
             this.paperButton.UseVisualStyleBackColor = true;
+            this.paperButton.Click += new System.EventHandler(this.paperButton_Click);
             this.paperButton.MouseHover += new System.EventHandler(this.paperButton_MouseHover);
             // 
             // label1
@@ -172,7 +173,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(1084, 661);
+            this.ClientSize = new System.Drawing.Size(813, 537);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.backButton);
             this.Controls.Add(this.label4);
