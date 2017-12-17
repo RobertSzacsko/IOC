@@ -58,6 +58,12 @@
     <Compile Include="First_Page.Designer.cs">
       <DependentUpon>First_Page.cs</DependentUpon>
     </Compile>
+    <Compile Include="PlasticPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PlasticPage.Designer.cs">
+      <DependentUpon>PlasticPage.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Paper_page.resx">
@@ -72,6 +78,9 @@
     <Compile Include="SecondPage.Designer.cs">
       <DependentUpon>SecondPage.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="PlasticPage.resx">
+      <DependentUpon>PlasticPage.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>

@@ -29,7 +29,20 @@ namespace IOC
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            PlasticPage pl= new PlasticPage();
+            pl.ShowDialog();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            START st = new START();
+            st.ShowDialog();
+        }
+
     }
-}
+    }
+
+   
+

@@ -144,6 +144,7 @@
             this.button5.Size = new System.Drawing.Size(56, 41);
             this.button5.TabIndex = 8;
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // label5
             // 
