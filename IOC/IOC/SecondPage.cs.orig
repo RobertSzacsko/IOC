@@ -42,18 +42,9 @@ namespace IOC
 
         private void paperButton_MouseHover(object sender, EventArgs e)
         {
-
             SoundPlayer player2 = new SoundPlayer();
             player2.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + "..\\..\\recs\\paperImage.wav";
             player2.Play();
-        }
-
-        private void gameButton_MouseHover(object sender, EventArgs e)
-        {
-<<<<<<< Updated upstream
-            this.Hide();
-            PlasticPage pl= new PlasticPage();
-            pl.ShowDialog();
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -61,7 +52,10 @@ namespace IOC
             this.Hide();
             START st = new START();
             st.ShowDialog();
-=======
+        }
+<<<<<<< HEAD
+        private void gameButton_MouseHover(object sender, EventArgs e)
+        {
             SoundPlayer player2 = new SoundPlayer();
             player2.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + "..\\..\\recs\\gameImage.wav";
             player2.Play();
@@ -79,10 +73,18 @@ namespace IOC
             SoundPlayer player2 = new SoundPlayer();
             player2.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + "..\\..\\recs\\plasticImage.wav";
             player2.Play();
->>>>>>> Stashed changes
         }
 
     }
+=======
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            START start = new START();
+            start.Show();
+        }
+>>>>>>> dasdas
     }
 
    

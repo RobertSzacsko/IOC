@@ -185,8 +185,8 @@
             this.Controls.Add(this.plasticButton);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(1100, 700);
-            this.MinimumSize = new System.Drawing.Size(1100, 700);
+            this.MaximumSize = new System.Drawing.Size(829, 576);
+            this.MinimumSize = new System.Drawing.Size(829, 576);
             this.Name = "SecondPage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SecondPage";

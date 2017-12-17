@@ -60,9 +60,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
     <EmbeddedResource Include="Paper_page.resx">
       <DependentUpon>Paper_page.cs</DependentUpon>
     </EmbeddedResource>
+=======
+    <Compile Include="Sticla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sticla.Designer.cs">
+      <DependentUpon>Sticla.cs</DependentUpon>
+    </Compile>
+>>>>>>> dasdas
     <EmbeddedResource Include="First_Page.resx">
       <DependentUpon>First_Page.cs</DependentUpon>
     </EmbeddedResource>
@@ -85,6 +94,9 @@
     <EmbeddedResource Include="SecondPage.resx">
       <DependentUpon>SecondPage.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Sticla.resx">
+      <DependentUpon>Sticla.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -99,83 +111,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< Updated upstream
     <None Include="images\first_page_background.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="images\Paper_page_backgroudn.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\hartie_colorata.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\kid_recycling_paper.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\green_arrow.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\green_arroww.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\smiley_face.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\smiley_face1.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\cereal_box.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\notebooks_for_kids.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\paper_page_background.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\newspapper.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\newspapaer.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\down_green_arrow.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\right_green_arrow.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\left_green_arrow.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\up_green_arrow -.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\down_green_arrow.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\cereal_box.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\right_arrow.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\right_green_arrow.jpeg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\kid_recycling_paper.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\up_green_arrow -.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Resources\" />
-=======
-    <Content Include="images\firstPageBackground.jpg" />
-    <Content Include="recs\FirstPageRob.wav">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="images\startButton.jpg" />
     <Content Include="recs\gameImage.wav">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -188,8 +126,15 @@
     <Content Include="recs\paperImage.wav">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="recs\plasticImage.wav" />
->>>>>>> Stashed changes
+    <Content Include="recs\plasticImage.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\paper_page_background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
