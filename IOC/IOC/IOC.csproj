@@ -46,14 +46,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Paper_page.cs">
     <Compile Include="First_Page.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Paper_page.Designer.cs">
+      <DependentUpon>Paper_page.cs</DependentUpon>
     <Compile Include="First_Page.Designer.cs">
       <DependentUpon>First_Page.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Paper_page.resx">
+      <DependentUpon>Paper_page.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="First_Page.resx">
       <DependentUpon>First_Page.cs</DependentUpon>
     </EmbeddedResource>
@@ -65,8 +71,8 @@
     </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -80,6 +86,11 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -90,11 +101,76 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="images\firstPageBackground.jpg" />
-    <Content Include="recs\FirstPageRob.wav">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="images\startButton.jpg" />
+    <None Include="images\first_page_background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Paper_page_backgroudn.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\hartie_colorata.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\kid_recycling_paper.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\green_arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\green_arroww.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\smiley_face.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\smiley_face1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\cereal_box.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\notebooks_for_kids.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\paper_page_background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\newspapper.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\newspapaer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\down_green_arrow.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\right_green_arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\left_green_arrow.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\up_green_arrow -.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\down_green_arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\cereal_box.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\right_arrow.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\right_green_arrow.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\kid_recycling_paper.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\up_green_arrow -.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
