@@ -118,14 +118,64 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="paper_page_background" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\paper_page_background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="right_arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\right_arrow.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="firstPageBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\firstPageBackground.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="right_green_arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\right_green_arrow.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="colored_paper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\colored_paper.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hartie_din_copaci" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\hartie_din_copaci.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="startButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\startButton.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="firstPageBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\firstPageBackground.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="newspapaer (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\newspapaer (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="paper_image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\paper_image.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kid_recycling_paper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\kid_recycling_paper.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cereal_box" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\cereal_box.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="down_green_arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\down_green_arrow.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="paper_page_background1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\paper_page_background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="colored_paper1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\colored_paper.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="up_green_arrow -" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\up_green_arrow -.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="paper_page_background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\paper_page_background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="deforestation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\deforestation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="left_green_arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\left_green_arrow.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ImagineInapoi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ImagineInapoi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="notebooks_for_kids" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\notebooks_for_kids.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="crying_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\crying_tree.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

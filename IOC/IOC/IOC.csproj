@@ -111,6 +111,11 @@
     <None Include="images\first_page_background.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="images\ImagineInapoi.jpg" />
+    <None Include="images\hartie_din_copaci.jpg" />
+    <None Include="images\paper_image.jpg" />
+    <None Include="images\deforestation.png" />
+    <None Include="images\crying_tree.jpg" />
     <Content Include="recs\gameImage.wav">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -132,6 +137,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\colored_paper.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\newspapaer %281%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

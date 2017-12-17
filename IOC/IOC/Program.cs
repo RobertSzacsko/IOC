@@ -16,7 +16,7 @@ namespace IOC
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new START());
+            Application.Run(new Paper_page());
            // Application.Run(new PlasticPage());
         }
     }

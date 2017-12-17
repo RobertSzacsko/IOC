@@ -22,5 +22,13 @@ namespace IOC
         {
 
         }
+
+        private void Paper_page_back_button_Click(object sender, EventArgs e)
+        {
+         
+            this.Hide();
+            SecondPage st = new SecondPage();
+            st.ShowDialog();
+        }
     }
 }
