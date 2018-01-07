@@ -58,17 +58,23 @@
     <Compile Include="First_Page.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Paper_page.Designer.cs">
-      <DependentUpon>Paper_page.cs</DependentUpon>
-    </Compile>
     <Compile Include="First_Page.Designer.cs">
       <DependentUpon>First_Page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Paper_page.Designer.cs">
+      <DependentUpon>Paper_page.cs</DependentUpon>
     </Compile>
     <Compile Include="PlasticPage.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="PlasticPage.Designer.cs">
       <DependentUpon>PlasticPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Plastic_despartire.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Plastic_despartire.Designer.cs">
+      <DependentUpon>Plastic_despartire.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -107,10 +113,13 @@
     <EmbeddedResource Include="PlasticPage.resx">
       <DependentUpon>PlasticPage.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Plastic_despartire.resx">
+      <DependentUpon>Plastic_despartire.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Hartie_Despartire.resx">
       <DependentUpon>Hartie_Despartire.cs</DependentUpon>
@@ -138,6 +147,13 @@
     <None Include="images\first_page_background.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Sageata21.jpg" />
+    <None Include="Resources\SageataFinal.png" />
+    <None Include="Resources\Sageata2.jpg" />
+    <None Include="Resources\Sageata.jpg" />
+    <None Include="Resources\WhatsApp Image 2018-01-07 at 15.32.39.jpeg" />
+    <None Include="Resources\ImagineInapoi.jpg" />
+    <None Include="Resources\img1 - Copy.jpg" />
     <Content Include="recs\secondPageRecycleSymbol.wav" />
     <Content Include="recs\timpTerminat.wav" />
     <None Include="images\ImagineInapoi.jpg" />
@@ -149,6 +165,7 @@
     <None Include="images\deforestation.png" />
     <None Include="images\crying_tree.jpg" />
     <None Include="images\Grass-PNG.png" />
+    <Content Include="images\img1 - Copy.jpg" />
     <Content Include="recs\FirstPageRob.wav" />
     <None Include="images\back_button %282%29.png" />
     <None Include="images\next_button.png" />
@@ -171,9 +188,7 @@
   <ItemGroup>
     <None Include="images\paper_page_background.jpg" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Resources\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="images\colored_paper.jpg" />
   </ItemGroup>
