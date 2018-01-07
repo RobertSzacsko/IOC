@@ -46,12 +46,12 @@
             // 
             this.plasticButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("plasticButton.BackgroundImage")));
             this.plasticButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.plasticButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.plasticButton.FlatAppearance.BorderSize = 0;
             this.plasticButton.Location = new System.Drawing.Point(2, 0);
             this.plasticButton.Margin = new System.Windows.Forms.Padding(2);
             this.plasticButton.Name = "plasticButton";
             this.plasticButton.Size = new System.Drawing.Size(137, 76);
-            this.plasticButton.TabIndex = 0;
+            this.plasticButton.TabIndex = 2;
             this.plasticButton.UseVisualStyleBackColor = true;
             this.plasticButton.Click += new System.EventHandler(this.plasticButton_Click);
             this.plasticButton.MouseHover += new System.EventHandler(this.plasticButton_MouseHover);
@@ -124,7 +124,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.SystemColors.Window;
             this.label3.Font = new System.Drawing.Font("Segoe Print", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label3.Location = new System.Drawing.Point(-4, 526);
+            this.label3.Location = new System.Drawing.Point(11, 516);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(109, 43);
@@ -174,7 +174,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::IOC.Properties.Resources.second;
-            this.ClientSize = new System.Drawing.Size(813, 537);
+            this.ClientSize = new System.Drawing.Size(1084, 661);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.backButton);
             this.Controls.Add(this.label4);
@@ -187,8 +187,8 @@
             this.Controls.Add(this.plasticButton);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(829, 576);
-            this.MinimumSize = new System.Drawing.Size(829, 576);
+            this.MaximumSize = new System.Drawing.Size(1100, 700);
+            this.MinimumSize = new System.Drawing.Size(1100, 700);
             this.Name = "SecondPage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SecondPage";

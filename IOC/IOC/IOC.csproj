@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GamePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GamePage.Designer.cs">
+      <DependentUpon>GamePage.cs</DependentUpon>
+    </Compile>
     <Compile Include="Paper_page.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,12 +72,20 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Sticla.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Sticla.Designer.cs">
       <DependentUpon>Sticla.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="GamePage.resx">
+      <DependentUpon>GamePage.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Paper_page.resx">
       <DependentUpon>Paper_page.cs</DependentUpon>
     </EmbeddedResource>
@@ -90,6 +104,7 @@
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="SecondPage.resx">
       <DependentUpon>SecondPage.cs</DependentUpon>
@@ -122,6 +137,7 @@
     <None Include="images\Untitled.png" />
     <None Include="images\deforestation.png" />
     <None Include="images\crying_tree.jpg" />
+    <None Include="images\Grass-PNG.png" />
     <Content Include="recs\gameImage.wav">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

@@ -43,6 +43,8 @@
             // 
             this.Inapoi.BackColor = System.Drawing.Color.Transparent;
             this.Inapoi.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Inapoi.BackgroundImage")));
+            this.Inapoi.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Inapoi.FlatAppearance.BorderSize = 0;
             this.Inapoi.Location = new System.Drawing.Point(2, 611);
             this.Inapoi.Margin = new System.Windows.Forms.Padding(2);
             this.Inapoi.Name = "Inapoi";

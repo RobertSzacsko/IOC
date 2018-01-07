@@ -151,6 +151,7 @@
             // 
             // Paper_page_back_button
             // 
+            this.Paper_page_back_button.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Paper_page_back_button.Image = global::IOC.Properties.Resources.ImagineInapoi;
             this.Paper_page_back_button.Location = new System.Drawing.Point(22, 12);
             this.Paper_page_back_button.Name = "Paper_page_back_button";
