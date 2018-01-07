@@ -20,10 +20,15 @@ namespace IOC.Resources
         public Hartie_Despartire()
         {
             InitializeComponent();
-            timeLable.Text = timeLeft + " seconds";
+            //timeLable.Text = timeLeft.ToString();
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        /*private void timer1_Tick(object sender, EventArgs e)
         {
             
             if (timeLeft > 0)
@@ -32,21 +37,22 @@ namespace IOC.Resources
                 // Display the new time left
                 // by updating the Time Left label.
                 timeLeft = timeLeft - 1;
-                timeLable.Text = timeLeft + " seconds";
+                timeLable.Text = timeLeft.ToString();
             }
             else
             {
                 // If the user ran out of time, stop the timer, show
                 // a MessageBox, and fill in the answers.
                 timer1.Stop();
+                SoundPlayer player = new SoundPlayer();
+                player.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + "..\\..\\recs\\timpTerminat.wav";
+                player.Play();
                 timeLable.Text = "GATA";
                 timeLable.BackColor = Color.Red;
-                //SoundPlayer player = new SoundPlayer();
-                //player.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + "..\\..\\recs\\FirstPageRob.wav";
-                //player.Play();
+                
 
             }
-        }
+        }*/
 
     }
 }
