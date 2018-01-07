@@ -10,11 +10,15 @@ using System.Windows.Forms;
 
 namespace IOC
 {
-    public partial class Sticla : Form
+    public partial class SticlaPage : Form
     {
-        public Sticla()
+        public SticlaPage()
         {
             InitializeComponent();
+        }
+
+        private void SticlaPage_Load(object sender, EventArgs e)
+        {
         }
     }
 }

@@ -36,10 +36,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Cornsilk;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.DarkGreen;
-            this.label1.Location = new System.Drawing.Point(322, 9);
+            this.label1.Location = new System.Drawing.Point(387, 18);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(342, 55);
             this.label1.TabIndex = 0;
@@ -61,6 +61,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.DarkSlateGray;
             this.BackgroundImage = global::IOC.Properties.Resources.firstPageBackground;
             this.ClientSize = new System.Drawing.Size(1084, 661);
             this.Controls.Add(this.startButton);

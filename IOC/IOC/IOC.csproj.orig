@@ -46,17 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GamePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GamePage.Designer.cs">
+      <DependentUpon>GamePage.cs</DependentUpon>
+    </Compile>
     <Compile Include="Paper_page.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="First_Page.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Paper_page.Designer.cs">
-      <DependentUpon>Paper_page.cs</DependentUpon>
-    </Compile>
     <Compile Include="First_Page.Designer.cs">
       <DependentUpon>First_Page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Paper_page.Designer.cs">
+      <DependentUpon>Paper_page.cs</DependentUpon>
     </Compile>
     <Compile Include="PlasticPage.cs">
       <SubType>Form</SubType>
@@ -64,14 +70,38 @@
     <Compile Include="PlasticPage.Designer.cs">
       <DependentUpon>PlasticPage.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Sticla.cs">
+    <Compile Include="Plastic_despartire.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Sticla.Designer.cs">
-      <DependentUpon>Sticla.cs</DependentUpon>
+    <Compile Include="Plastic_despartire.Designer.cs">
+      <DependentUpon>Plastic_despartire.cs</DependentUpon>
     </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+<<<<<<< Updated upstream
+    <Compile Include="Hartie_Despartire.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hartie_Despartire.Designer.cs">
+      <DependentUpon>Hartie_Despartire.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sticla.cs">
+=======
+    <Compile Include="SticlaPage.cs">
+>>>>>>> Stashed changes
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SticlaPage.Designer.cs">
+      <DependentUpon>SticlaPage.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="GamePage.resx">
+      <DependentUpon>GamePage.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Paper_page.resx">
       <DependentUpon>Paper_page.cs</DependentUpon>
     </EmbeddedResource>
@@ -87,15 +117,22 @@
     <EmbeddedResource Include="PlasticPage.resx">
       <DependentUpon>PlasticPage.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Plastic_despartire.resx">
+      <DependentUpon>Plastic_despartire.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hartie_Despartire.resx">
+      <DependentUpon>Hartie_Despartire.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SecondPage.resx">
       <DependentUpon>SecondPage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Sticla.resx">
-      <DependentUpon>Sticla.cs</DependentUpon>
+    <EmbeddedResource Include="SticlaPage.resx">
+      <DependentUpon>SticlaPage.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -114,17 +151,28 @@
     <None Include="images\first_page_background.jpg" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< Updated upstream
+    <None Include="Resources\Sageata21.jpg" />
+    <None Include="Resources\SageataFinal.png" />
+    <None Include="Resources\Sageata2.jpg" />
+    <None Include="Resources\Sageata.jpg" />
+    <None Include="Resources\WhatsApp Image 2018-01-07 at 15.32.39.jpeg" />
+    <None Include="Resources\ImagineInapoi.jpg" />
+    <None Include="Resources\img1 - Copy.jpg" />
+    <Content Include="recs\secondPageRecycleSymbol.wav" />
+    <Content Include="recs\timpTerminat.wav" />
     <None Include="images\ImagineInapoi.jpg" />
     <None Include="images\hartie_din_copaci.jpg" />
     <None Include="images\paper_image.jpg" />
-    <None Include="images\deforestation.png" />
-    <None Include="images\crying_tree.jpg" />
-=======
     <None Include="images\secondpage.jpg" />
     <None Include="images\second.jpg" />
     <None Include="images\Untitled.png" />
->>>>>>> Stashed changes
+    <None Include="images\deforestation.png" />
+    <None Include="images\crying_tree.jpg" />
+    <None Include="images\Grass-PNG.png" />
+    <Content Include="images\img1 - Copy.jpg" />
+    <Content Include="recs\FirstPageRob.wav" />
+    <None Include="images\back_button %282%29.png" />
+    <None Include="images\next_button.png" />
     <Content Include="recs\gameImage.wav">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -144,9 +192,7 @@
   <ItemGroup>
     <None Include="images\paper_page_background.jpg" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Resources\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="images\colored_paper.jpg" />
   </ItemGroup>

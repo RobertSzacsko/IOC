@@ -84,16 +84,11 @@
     <Compile Include="Hartie_Despartire.Designer.cs">
       <DependentUpon>Hartie_Despartire.cs</DependentUpon>
     </Compile>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
-    <Compile Include="Sticla.cs">
+    <Compile Include="SticlaPage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Sticla.Designer.cs">
-      <DependentUpon>Sticla.cs</DependentUpon>
+    <Compile Include="SticlaPage.Designer.cs">
+      <DependentUpon>SticlaPage.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="GamePage.resx">
       <DependentUpon>GamePage.cs</DependentUpon>
@@ -127,8 +122,8 @@
     <EmbeddedResource Include="SecondPage.resx">
       <DependentUpon>SecondPage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Sticla.resx">
-      <DependentUpon>Sticla.cs</DependentUpon>
+    <EmbeddedResource Include="SticlaPage.resx">
+      <DependentUpon>SticlaPage.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
