@@ -31,19 +31,20 @@
             this.ButonInapoiPlasticDespartire = new System.Windows.Forms.Button();
             this.ButonDespartireSilabePlastic = new System.Windows.Forms.Button();
             this.ButonDespartireSilabePlastic1 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.ButonDespartireSilabePlastic2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // ButonInapoiPlasticDespartire
             // 
             this.ButonInapoiPlasticDespartire.BackColor = System.Drawing.Color.Transparent;
-            this.ButonInapoiPlasticDespartire.BackgroundImage = global::IOC.Properties.Resources.back_button__2_1;
+            this.ButonInapoiPlasticDespartire.BackgroundImage = global::IOC.Properties.Resources.back_button__2_2;
             this.ButonInapoiPlasticDespartire.ForeColor = System.Drawing.SystemColors.ControlText;
             this.ButonInapoiPlasticDespartire.Location = new System.Drawing.Point(12, 12);
             this.ButonInapoiPlasticDespartire.Name = "ButonInapoiPlasticDespartire";
             this.ButonInapoiPlasticDespartire.Size = new System.Drawing.Size(70, 70);
             this.ButonInapoiPlasticDespartire.TabIndex = 0;
             this.ButonInapoiPlasticDespartire.UseVisualStyleBackColor = false;
+            this.ButonInapoiPlasticDespartire.Click += new System.EventHandler(this.ButonInapoiPlasticDespartire_Click);
             // 
             // ButonDespartireSilabePlastic
             // 
@@ -55,6 +56,7 @@
             this.ButonDespartireSilabePlastic.TabIndex = 2;
             this.ButonDespartireSilabePlastic.Text = "PLAS - TIC";
             this.ButonDespartireSilabePlastic.UseVisualStyleBackColor = false;
+            this.ButonDespartireSilabePlastic.Click += new System.EventHandler(this.ButonDespartireSilabePlastic_Click);
             // 
             // ButonDespartireSilabePlastic1
             // 
@@ -66,25 +68,27 @@
             this.ButonDespartireSilabePlastic1.TabIndex = 3;
             this.ButonDespartireSilabePlastic1.Text = "P - LAS - TIC";
             this.ButonDespartireSilabePlastic1.UseVisualStyleBackColor = false;
+            this.ButonDespartireSilabePlastic1.Click += new System.EventHandler(this.ButonDespartireSilabePlastic1_Click);
             // 
-            // button4
+            // ButonDespartireSilabePlastic2
             // 
-            this.button4.BackColor = System.Drawing.SystemColors.Window;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button4.Location = new System.Drawing.Point(389, 394);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(300, 100);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "PL - AS - TIC";
-            this.button4.UseVisualStyleBackColor = false;
+            this.ButonDespartireSilabePlastic2.BackColor = System.Drawing.SystemColors.Window;
+            this.ButonDespartireSilabePlastic2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.ButonDespartireSilabePlastic2.Location = new System.Drawing.Point(389, 394);
+            this.ButonDespartireSilabePlastic2.Name = "ButonDespartireSilabePlastic2";
+            this.ButonDespartireSilabePlastic2.Size = new System.Drawing.Size(300, 100);
+            this.ButonDespartireSilabePlastic2.TabIndex = 4;
+            this.ButonDespartireSilabePlastic2.Text = "PL - AS - TIC";
+            this.ButonDespartireSilabePlastic2.UseVisualStyleBackColor = false;
+            this.ButonDespartireSilabePlastic2.Click += new System.EventHandler(this.button4_Click);
             // 
             // Plastic_despartire
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::IOC.Properties.Resources.img1___Copy;
+            this.BackgroundImage = global::IOC.Properties.Resources.img1___Copy3;
             this.ClientSize = new System.Drawing.Size(1082, 653);
-            this.Controls.Add(this.button4);
+            this.Controls.Add(this.ButonDespartireSilabePlastic2);
             this.Controls.Add(this.ButonDespartireSilabePlastic1);
             this.Controls.Add(this.ButonDespartireSilabePlastic);
             this.Controls.Add(this.ButonInapoiPlasticDespartire);
@@ -100,6 +104,6 @@
         private System.Windows.Forms.Button ButonInapoiPlasticDespartire;
         private System.Windows.Forms.Button ButonDespartireSilabePlastic;
         private System.Windows.Forms.Button ButonDespartireSilabePlastic1;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button ButonDespartireSilabePlastic2;
     }
 }
