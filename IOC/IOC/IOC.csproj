@@ -138,6 +138,8 @@
     <None Include="images\first_page_background.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="recs\secondPageRecycleSymbol.wav" />
+    <Content Include="recs\timpTerminat.wav" />
     <None Include="images\ImagineInapoi.jpg" />
     <None Include="images\hartie_din_copaci.jpg" />
     <None Include="images\paper_image.jpg" />
@@ -147,6 +149,7 @@
     <None Include="images\deforestation.png" />
     <None Include="images\crying_tree.jpg" />
     <None Include="images\Grass-PNG.png" />
+    <Content Include="recs\FirstPageRob.wav" />
     <Content Include="recs\gameImage.wav">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

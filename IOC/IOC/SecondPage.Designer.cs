@@ -29,32 +29,25 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SecondPage));
-            this.plasticButton = new System.Windows.Forms.Button();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.paperButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.paperButton = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.gameButton = new System.Windows.Forms.Button();
-            this.glassButton = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.backButton = new System.Windows.Forms.Button();
-            this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // plasticButton
+            // label1
             // 
-            this.plasticButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("plasticButton.BackgroundImage")));
-            this.plasticButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.plasticButton.FlatAppearance.BorderSize = 0;
-            this.plasticButton.Location = new System.Drawing.Point(2, 0);
-            this.plasticButton.Margin = new System.Windows.Forms.Padding(2);
-            this.plasticButton.Name = "plasticButton";
-            this.plasticButton.Size = new System.Drawing.Size(137, 76);
-            this.plasticButton.TabIndex = 2;
-            this.plasticButton.UseVisualStyleBackColor = true;
-            this.plasticButton.Click += new System.EventHandler(this.plasticButton_Click);
-            this.plasticButton.MouseHover += new System.EventHandler(this.plasticButton_MouseHover);
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.SystemColors.Window;
+            this.label1.Font = new System.Drawing.Font("Segoe Print", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label1.Location = new System.Drawing.Point(969, 78);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(114, 43);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "HÂRTIE";
             // 
             // paperButton
             // 
@@ -69,105 +62,38 @@
             this.paperButton.Click += new System.EventHandler(this.paperButton_Click);
             this.paperButton.MouseHover += new System.EventHandler(this.paperButton_MouseHover);
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.SystemColors.Window;
-            this.label1.Font = new System.Drawing.Font("Segoe Print", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label1.Location = new System.Drawing.Point(969, 78);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(114, 43);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "HARTIE";
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.SystemColors.Window;
-            this.label2.Font = new System.Drawing.Font("Segoe Print", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label2.Location = new System.Drawing.Point(-6, 78);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Segoe Print", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(448, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(126, 43);
+            this.label2.Size = new System.Drawing.Size(209, 57);
             this.label2.TabIndex = 3;
-            this.label2.Text = "PLASTIC";
-            // 
-            // gameButton
-            // 
-            this.gameButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("gameButton.BackgroundImage")));
-            this.gameButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.gameButton.Location = new System.Drawing.Point(933, 570);
-            this.gameButton.Margin = new System.Windows.Forms.Padding(2);
-            this.gameButton.Name = "gameButton";
-            this.gameButton.Size = new System.Drawing.Size(150, 89);
-            this.gameButton.TabIndex = 4;
-            this.gameButton.UseVisualStyleBackColor = true;
-            this.gameButton.Click += new System.EventHandler(this.button3_Click);
-            this.gameButton.MouseHover += new System.EventHandler(this.gameButton_MouseHover);
-            // 
-            // glassButton
-            // 
-            this.glassButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("glassButton.BackgroundImage")));
-            this.glassButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.glassButton.Location = new System.Drawing.Point(2, 561);
-            this.glassButton.Margin = new System.Windows.Forms.Padding(2);
-            this.glassButton.Name = "glassButton";
-            this.glassButton.Size = new System.Drawing.Size(130, 89);
-            this.glassButton.TabIndex = 5;
-            this.glassButton.Text = "x";
-            this.glassButton.UseVisualStyleBackColor = true;
-            this.glassButton.MouseHover += new System.EventHandler(this.glassButton_MouseHover);
+            this.label2.Text = "REDUCERE";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.SystemColors.Window;
-            this.label3.Font = new System.Drawing.Font("Segoe Print", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label3.Location = new System.Drawing.Point(11, 516);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Segoe Print", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label3.Location = new System.Drawing.Point(847, 336);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(109, 43);
-            this.label3.TabIndex = 6;
-            this.label3.Text = "STICLA";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+            this.label3.Size = new System.Drawing.Size(236, 57);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "REFOLOSIRE";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.SystemColors.Window;
-            this.label4.Font = new System.Drawing.Font("Segoe Print", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label4.Location = new System.Drawing.Point(1014, 526);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Segoe Print", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label4.Location = new System.Drawing.Point(-7, 336);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(69, 43);
-            this.label4.TabIndex = 7;
-            this.label4.Text = "JOC";
-            // 
-            // backButton
-            // 
-            this.backButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("backButton.BackgroundImage")));
-            this.backButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.backButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.backButton.Location = new System.Drawing.Point(537, 618);
-            this.backButton.Margin = new System.Windows.Forms.Padding(2);
-            this.backButton.Name = "backButton";
-            this.backButton.Size = new System.Drawing.Size(56, 41);
-            this.backButton.TabIndex = 8;
-            this.backButton.UseVisualStyleBackColor = true;
-            this.backButton.Click += new System.EventHandler(this.backButton_Click);
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.SystemColors.Window;
-            this.label5.Font = new System.Drawing.Font("Segoe Script", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label5.Location = new System.Drawing.Point(424, 619);
-            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(109, 40);
-            this.label5.TabIndex = 9;
-            this.label5.Text = "INAPOI";
+            this.label4.Size = new System.Drawing.Size(214, 57);
+            this.label4.TabIndex = 5;
+            this.label4.Text = "RECICLARE";
             // 
             // SecondPage
             // 
@@ -175,16 +101,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::IOC.Properties.Resources.second;
             this.ClientSize = new System.Drawing.Size(1084, 661);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.backButton);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.glassButton);
-            this.Controls.Add(this.gameButton);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.paperButton);
-            this.Controls.Add(this.plasticButton);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(1100, 700);
@@ -198,17 +119,11 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button plasticButton;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
-        private System.Windows.Forms.Button paperButton;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button paperButton;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button gameButton;
-        private System.Windows.Forms.Button glassButton;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button backButton;
-        private System.Windows.Forms.Label label5;
     }
 }

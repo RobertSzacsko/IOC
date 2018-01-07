@@ -18,7 +18,7 @@ namespace IOC
             InitializeComponent();
 
             SoundPlayer player2 = new SoundPlayer();
-            player2.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + "..\\..\\recs\\menuPage.wav";
+            player2.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + "..\\..\\recs\\secondPageRecycleSymbol.wav";
             player2.Play();
         }
 
@@ -30,14 +30,6 @@ namespace IOC
         private void label3_Click(object sender, EventArgs e)
         {
 
-        }
-
-
-        private void backButton_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            START st = new START();
-            st.ShowDialog();
         }
 
         private void paperButton_MouseHover(object sender, EventArgs e)
@@ -53,34 +45,8 @@ namespace IOC
             START st = new START();
             st.ShowDialog();
         }
-        private void gameButton_MouseHover(object sender, EventArgs e)
-        {
-            SoundPlayer player2 = new SoundPlayer();
-            player2.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + "..\\..\\recs\\gameImage.wav";
-            player2.Play();
-        }
 
-        private void glassButton_MouseHover(object sender, EventArgs e)
-        {
-            SoundPlayer player2 = new SoundPlayer();
-            player2.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + "..\\..\\recs\\glassImage.wav";
-            player2.Play();
-        }
 
-        private void plasticButton_MouseHover(object sender, EventArgs e)
-        {
-            SoundPlayer player2 = new SoundPlayer();
-            player2.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + "..\\..\\recs\\plasticImage.wav";
-            player2.Play();
-        }
-
-        private void plasticButton_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            PlasticPage pp = new PlasticPage();
-            pp.ShowDialog();
-        }
-        
         private void paperButton_Click(object sender, EventArgs e)
         {
             this.Hide();
