@@ -16,7 +16,7 @@ namespace IOC
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Resources.Hartie_Despartire());
+            Application.Run(new START());
         }
     }
 }

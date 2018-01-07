@@ -38,10 +38,10 @@
             this.left = new System.Windows.Forms.PictureBox();
             this.right = new System.Windows.Forms.PictureBox();
             this.Paper_page_back_button = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.paperEqualsTree = new System.Windows.Forms.PictureBox();
+            this.cuttingTrees = new System.Windows.Forms.PictureBox();
+            this.cuttingTree = new System.Windows.Forms.PictureBox();
+            this.cryingTree = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.cereal_box)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.recyling_paper)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.colored_paper)).BeginInit();
@@ -52,10 +52,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.left)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.right)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Paper_page_back_button)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.paperEqualsTree)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cuttingTrees)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cuttingTree)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cryingTree)).BeginInit();
             this.SuspendLayout();
             // 
             // cereal_box
@@ -152,49 +152,49 @@
             // Paper_page_back_button
             // 
             this.Paper_page_back_button.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Paper_page_back_button.Image = global::IOC.Properties.Resources.ImagineInapoi;
+            this.Paper_page_back_button.Image = global::IOC.Properties.Resources.back_button;
             this.Paper_page_back_button.Location = new System.Drawing.Point(22, 12);
             this.Paper_page_back_button.Name = "Paper_page_back_button";
-            this.Paper_page_back_button.Size = new System.Drawing.Size(75, 50);
+            this.Paper_page_back_button.Size = new System.Drawing.Size(75, 72);
             this.Paper_page_back_button.TabIndex = 9;
             this.Paper_page_back_button.TabStop = false;
             this.Paper_page_back_button.Click += new System.EventHandler(this.Paper_page_back_button_Click);
             // 
-            // pictureBox1
+            // paperEqualsTree
             // 
-            this.pictureBox1.Image = global::IOC.Properties.Resources.hartie_din_copaci;
-            this.pictureBox1.Location = new System.Drawing.Point(755, 92);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(200, 120);
-            this.pictureBox1.TabIndex = 11;
-            this.pictureBox1.TabStop = false;
+            this.paperEqualsTree.Image = global::IOC.Properties.Resources.hartie_din_copaci;
+            this.paperEqualsTree.Location = new System.Drawing.Point(755, 92);
+            this.paperEqualsTree.Name = "paperEqualsTree";
+            this.paperEqualsTree.Size = new System.Drawing.Size(200, 120);
+            this.paperEqualsTree.TabIndex = 11;
+            this.paperEqualsTree.TabStop = false;
             // 
-            // pictureBox2
+            // cuttingTrees
             // 
-            this.pictureBox2.Image = global::IOC.Properties.Resources.paper_image;
-            this.pictureBox2.Location = new System.Drawing.Point(139, 92);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(200, 120);
-            this.pictureBox2.TabIndex = 12;
-            this.pictureBox2.TabStop = false;
+            this.cuttingTrees.Image = global::IOC.Properties.Resources.paper_image;
+            this.cuttingTrees.Location = new System.Drawing.Point(139, 92);
+            this.cuttingTrees.Name = "cuttingTrees";
+            this.cuttingTrees.Size = new System.Drawing.Size(200, 120);
+            this.cuttingTrees.TabIndex = 12;
+            this.cuttingTrees.TabStop = false;
             // 
-            // pictureBox3
+            // cuttingTree
             // 
-            this.pictureBox3.Image = global::IOC.Properties.Resources.deforestation;
-            this.pictureBox3.Location = new System.Drawing.Point(139, 485);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(200, 120);
-            this.pictureBox3.TabIndex = 13;
-            this.pictureBox3.TabStop = false;
+            this.cuttingTree.Image = global::IOC.Properties.Resources.deforestation;
+            this.cuttingTree.Location = new System.Drawing.Point(139, 485);
+            this.cuttingTree.Name = "cuttingTree";
+            this.cuttingTree.Size = new System.Drawing.Size(200, 120);
+            this.cuttingTree.TabIndex = 13;
+            this.cuttingTree.TabStop = false;
             // 
-            // pictureBox4
+            // cryingTree
             // 
-            this.pictureBox4.Image = global::IOC.Properties.Resources.crying_tree;
-            this.pictureBox4.Location = new System.Drawing.Point(755, 485);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(200, 120);
-            this.pictureBox4.TabIndex = 14;
-            this.pictureBox4.TabStop = false;
+            this.cryingTree.Image = global::IOC.Properties.Resources.crying_tree;
+            this.cryingTree.Location = new System.Drawing.Point(755, 485);
+            this.cryingTree.Name = "cryingTree";
+            this.cryingTree.Size = new System.Drawing.Size(200, 120);
+            this.cryingTree.TabIndex = 14;
+            this.cryingTree.TabStop = false;
             // 
             // Paper_page
             // 
@@ -204,10 +204,10 @@
             this.BackgroundImage = global::IOC.Properties.Resources.paper_page_background1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1084, 661);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.cryingTree);
+            this.Controls.Add(this.cuttingTree);
+            this.Controls.Add(this.cuttingTrees);
+            this.Controls.Add(this.paperEqualsTree);
             this.Controls.Add(this.Paper_page_back_button);
             this.Controls.Add(this.right);
             this.Controls.Add(this.left);
@@ -224,6 +224,7 @@
             this.Name = "Paper_page";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Paper_Page";
+            this.Load += new System.EventHandler(this.Paper_page_Load);
             ((System.ComponentModel.ISupportInitialize)(this.cereal_box)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.recyling_paper)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.colored_paper)).EndInit();
@@ -234,10 +235,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.left)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.right)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Paper_page_back_button)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.paperEqualsTree)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cuttingTrees)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cuttingTree)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cryingTree)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -253,10 +254,10 @@
         private System.Windows.Forms.PictureBox left;
         private System.Windows.Forms.PictureBox right;
         private System.Windows.Forms.PictureBox Paper_page_back_button;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox paperEqualsTree;
+        private System.Windows.Forms.PictureBox cuttingTrees;
+        private System.Windows.Forms.PictureBox cuttingTree;
+        private System.Windows.Forms.PictureBox cryingTree;
     }
 }
 

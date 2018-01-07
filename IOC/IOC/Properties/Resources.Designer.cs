@@ -19,7 +19,7 @@ namespace IOC.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -63,9 +63,9 @@ namespace IOC.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap back_button__2_ {
+        internal static System.Drawing.Bitmap back_button {
             get {
-                object obj = ResourceManager.GetObject("back_button (2)", resourceCulture);
+                object obj = ResourceManager.GetObject("back_button", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,9 +143,19 @@ namespace IOC.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap glassPaperBackground {
+            get {
+                object obj = ResourceManager.GetObject("glassPaperBackground", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Grass_PNG {
             get {
-                object obj = ResourceManager.GetObject("Grass-PNG", resourceCulture);
+                object obj = ResourceManager.GetObject("Grass_PNG", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -166,26 +176,6 @@ namespace IOC.Properties {
         internal static System.Drawing.Bitmap ImagineInapoi {
             get {
                 object obj = ResourceManager.GetObject("ImagineInapoi", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap ImagineInapoi1 {
-            get {
-                object obj = ResourceManager.GetObject("ImagineInapoi1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap img1___Copy {
-            get {
-                object obj = ResourceManager.GetObject("img1 - Copy", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -215,7 +205,7 @@ namespace IOC.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap newspapaer__1_ {
             get {
-                object obj = ResourceManager.GetObject("newspapaer (1)", resourceCulture);
+                object obj = ResourceManager.GetObject("newspapaer__1_", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -313,46 +303,6 @@ namespace IOC.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Sageata {
-            get {
-                object obj = ResourceManager.GetObject("Sageata", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Sageata2 {
-            get {
-                object obj = ResourceManager.GetObject("Sageata2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Sageata21 {
-            get {
-                object obj = ResourceManager.GetObject("Sageata21", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap SageataFinal {
-            get {
-                object obj = ResourceManager.GetObject("SageataFinal", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap second {
             get {
                 object obj = ResourceManager.GetObject("second", resourceCulture);
@@ -405,17 +355,7 @@ namespace IOC.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap up_green_arrow__ {
             get {
-                object obj = ResourceManager.GetObject("up_green_arrow -", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap WhatsApp_Image_2018_01_07_at_15_32_39 {
-            get {
-                object obj = ResourceManager.GetObject("WhatsApp Image 2018-01-07 at 15.32.39", resourceCulture);
+                object obj = ResourceManager.GetObject("up_green_arrow__", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

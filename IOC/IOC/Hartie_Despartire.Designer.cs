@@ -54,7 +54,7 @@
             // back_button
             // 
             this.back_button.BackColor = System.Drawing.Color.Transparent;
-            this.back_button.Image = global::IOC.Properties.Resources.back_button__2_;
+            this.back_button.Image = global::IOC.Properties.Resources.back_button;
             this.back_button.Location = new System.Drawing.Point(12, 12);
             this.back_button.Name = "back_button";
             this.back_button.Size = new System.Drawing.Size(70, 70);

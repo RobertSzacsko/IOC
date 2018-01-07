@@ -54,7 +54,19 @@ namespace IOC
             pp.ShowDialog();
         }
 
-        
+
+        private async void SecondPage_Load(object sender, EventArgs e)
+        {
+            labelReducere.Visible = false;
+            labelRefolosire.Visible = false;
+            labelReciclare.Visible = false;
+            await Task.Delay(20000);
+            labelReducere.Visible = true;
+            await Task.Delay(500);
+            labelRefolosire.Visible = true;
+            await Task.Delay(500);
+            labelReciclare.Visible = true;
+        }
     }
     }
 

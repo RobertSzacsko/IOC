@@ -37,7 +37,7 @@
             // ButonInapoiPlasticDespartire
             // 
             this.ButonInapoiPlasticDespartire.BackColor = System.Drawing.Color.Transparent;
-            this.ButonInapoiPlasticDespartire.BackgroundImage = global::IOC.Properties.Resources.back_button__2_2;
+            this.ButonInapoiPlasticDespartire.BackgroundImage = global::IOC.Properties.Resources.back_button;
             this.ButonInapoiPlasticDespartire.ForeColor = System.Drawing.SystemColors.ControlText;
             this.ButonInapoiPlasticDespartire.Location = new System.Drawing.Point(12, 12);
             this.ButonInapoiPlasticDespartire.Name = "ButonInapoiPlasticDespartire";
@@ -86,7 +86,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::IOC.Properties.Resources.img1___Copy3;
+            this.BackgroundImage = global::IOC.Properties.Resources.glassPaperBackground;
             this.ClientSize = new System.Drawing.Size(1082, 653);
             this.Controls.Add(this.ButonDespartireSilabePlastic2);
             this.Controls.Add(this.ButonDespartireSilabePlastic1);

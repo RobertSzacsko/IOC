@@ -78,16 +78,16 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <Compile Include="Hartie_Despartire.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Hartie_Despartire.Designer.cs">
       <DependentUpon>Hartie_Despartire.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="Sticla.cs">
       <SubType>Form</SubType>
@@ -118,8 +118,8 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Hartie_Despartire.resx">
       <DependentUpon>Hartie_Despartire.cs</DependentUpon>
@@ -147,13 +147,20 @@
     <None Include="images\first_page_background.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="images\back_button.png" />
+    <Content Include="images\glassPaperBackground.jpeg" />
+    <Content Include="Resources\back_button.png" />
+    <Content Include="Resources\glassPaperBackground.jpeg" />
+    <Content Include="Resources\Grass-PNG.png" />
+    <Content Include="Resources\newspapaer %281%29.png" />
+    <Content Include="Resources\up_green_arrow -.jpg" />
     <None Include="Resources\Sageata21.jpg" />
     <None Include="Resources\SageataFinal.png" />
-    <None Include="Resources\Sageata2.jpg" />
     <None Include="Resources\Sageata.jpg" />
     <None Include="Resources\WhatsApp Image 2018-01-07 at 15.32.39.jpeg" />
     <None Include="Resources\ImagineInapoi.jpg" />
     <None Include="Resources\img1 - Copy.jpg" />
+    <Content Include="images\up_green_arrow -.jpg" />
     <Content Include="recs\secondPageRecycleSymbol.wav" />
     <Content Include="recs\timpTerminat.wav" />
     <None Include="images\ImagineInapoi.jpg" />
@@ -167,7 +174,6 @@
     <None Include="images\Grass-PNG.png" />
     <Content Include="images\img1 - Copy.jpg" />
     <Content Include="recs\FirstPageRob.wav" />
-    <None Include="images\back_button %282%29.png" />
     <None Include="images\next_button.png" />
     <Content Include="recs\gameImage.wav">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

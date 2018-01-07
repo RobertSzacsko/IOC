@@ -30,5 +30,50 @@ namespace IOC
             SecondPage st = new SecondPage();
             st.ShowDialog();
         }
+
+        private async void Paper_page_Load(object sender, EventArgs e)
+        {
+            recyling_paper.Visible = false;
+            cereal_box.Visible = false;
+            down.Visible = false;
+            paperEqualsTree.Visible = false;
+            newspaper.Visible = false;
+            right.Visible = false;
+            cryingTree.Visible = false;
+            notebook.Visible = false;
+            up.Visible = false;
+            cuttingTree.Visible = false;
+            colored_paper.Visible = false;
+            left.Visible = false;
+            cuttingTrees.Visible = false;
+
+            await Task.Delay(1000);
+            recyling_paper.Visible = true;
+            await Task.Delay(500);
+            cereal_box.Visible = true;
+            await Task.Delay(500);
+            down.Visible = true;
+            await Task.Delay(500);
+            paperEqualsTree.Visible = true;
+            await Task.Delay(500);
+            newspaper.Visible = true;
+            await Task.Delay(500);
+            right.Visible = true;
+            await Task.Delay(500);
+            cryingTree.Visible = true;
+            await Task.Delay(500);
+            notebook.Visible = true;
+            await Task.Delay(500);
+            up.Visible = true;
+            await Task.Delay(500);
+            cuttingTree.Visible = true;
+            await Task.Delay(500);
+            colored_paper.Visible = true;
+            await Task.Delay(500);
+            left.Visible = true;
+            await Task.Delay(500);
+            cuttingTrees.Visible = true;
+            await Task.Delay(500);
+        }
     }
 }
