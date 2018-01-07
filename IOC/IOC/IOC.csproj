@@ -150,6 +150,8 @@
     <None Include="images\crying_tree.jpg" />
     <None Include="images\Grass-PNG.png" />
     <Content Include="recs\FirstPageRob.wav" />
+    <None Include="images\back_button %282%29.png" />
+    <None Include="images\next_button.png" />
     <Content Include="recs\gameImage.wav">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

@@ -63,6 +63,16 @@ namespace IOC.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap back_button__2_ {
+            get {
+                object obj = ResourceManager.GetObject("back_button (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cereal_box {
             get {
                 object obj = ResourceManager.GetObject("cereal_box", resourceCulture);
@@ -186,6 +196,26 @@ namespace IOC.Properties {
         internal static System.Drawing.Bitmap newspapaer__1_ {
             get {
                 object obj = ResourceManager.GetObject("newspapaer (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap next_button {
+            get {
+                object obj = ResourceManager.GetObject("next_button", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap next_button1 {
+            get {
+                object obj = ResourceManager.GetObject("next_button1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -41,9 +41,9 @@ namespace IOC.Resources
                 timer1.Stop();
                 timeLable.Text = "GATA";
                 timeLable.BackColor = Color.Red;
-                SoundPlayer player = new SoundPlayer();
-                player.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + "..\\..\\recs\\FirstPageRob.wav";
-                player.Play();
+                //SoundPlayer player = new SoundPlayer();
+                //player.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + "..\\..\\recs\\FirstPageRob.wav";
+                //player.Play();
 
             }
         }
