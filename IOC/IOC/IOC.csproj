@@ -84,11 +84,14 @@
     <Compile Include="Hartie_Despartire.Designer.cs">
       <DependentUpon>Hartie_Despartire.cs</DependentUpon>
     </Compile>
-    <Compile Include="SticlaPage.cs">
-      <SubType>Form</SubType>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="SticlaPage.Designer.cs">
-      <DependentUpon>SticlaPage.cs</DependentUpon>
+    <Compile Include="Sticla.cs" />
+    <Compile Include="Sticla.Designer.cs">
+      <DependentUpon>Sticla.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="GamePage.resx">
       <DependentUpon>GamePage.cs</DependentUpon>
@@ -122,8 +125,8 @@
     <EmbeddedResource Include="SecondPage.resx">
       <DependentUpon>SecondPage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SticlaPage.resx">
-      <DependentUpon>SticlaPage.cs</DependentUpon>
+    <EmbeddedResource Include="Sticla.resx">
+      <DependentUpon>Sticla.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -145,7 +148,7 @@
     <None Include="images\back_button.png" />
     <Content Include="images\glassPaperBackground.jpeg" />
     <Content Include="Resources\back_button.png" />
-    <Content Include="Resources\glassPaperBackground.jpeg" />
+    <Content Include="Resources\glassPaperBackground.jpg" />
     <Content Include="Resources\Grass-PNG.png" />
     <Content Include="Resources\newspapaer %281%29.png" />
     <Content Include="Resources\up_green_arrow -.jpg" />

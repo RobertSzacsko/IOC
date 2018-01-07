@@ -143,9 +143,9 @@ namespace IOC.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap glassPaperBackground1 {
+        internal static System.Drawing.Bitmap glassPaperBackground {
             get {
-                object obj = ResourceManager.GetObject("glassPaperBackground1", resourceCulture);
+                object obj = ResourceManager.GetObject("glassPaperBackground", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
