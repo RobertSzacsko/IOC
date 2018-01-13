@@ -89,10 +89,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="Sticla.cs" />
-    <Compile Include="Sticla.Designer.cs">
-      <DependentUpon>Sticla.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="GamePage.resx">
       <DependentUpon>GamePage.cs</DependentUpon>
     </EmbeddedResource>
@@ -101,6 +97,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="First_Page.resx">
       <DependentUpon>First_Page.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <Compile Include="SecondPage.cs">
       <SubType>Form</SubType>
@@ -125,9 +122,6 @@
     <EmbeddedResource Include="SecondPage.resx">
       <DependentUpon>SecondPage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Sticla.resx">
-      <DependentUpon>Sticla.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -146,7 +140,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="images\back_button.png" />
+    <Content Include="images\2.jpg" />
+    <Content Include="images\check_mark.jpg" />
+    <Content Include="images\check_mark.png" />
     <Content Include="images\glassPaperBackground.jpeg" />
+    <Content Include="recs\correct.wav" />
+    <Content Include="recs\hartie_despartire.wav" />
+    <Content Include="recs\plastic_despartire.wav" />
+    <Content Include="recs\sticla_despartire.wav" />
+    <Content Include="recs\wrong.wav" />
     <Content Include="Resources\back_button.png" />
     <Content Include="Resources\glassPaperBackground.jpg" />
     <Content Include="Resources\Grass-PNG.png" />
@@ -157,8 +159,8 @@
     <None Include="Resources\Sageata.jpg" />
     <None Include="Resources\WhatsApp Image 2018-01-07 at 15.32.39.jpeg" />
     <None Include="Resources\ImagineInapoi.jpg" />
-    <None Include="Resources\img1 - Copy.jpg" />
-    <Content Include="images\up_green_arrow -.jpg" />
+    <Content Include="images\back_button.png" />
+    <Content Include="images\up_green_arrow.jpg" />
     <Content Include="recs\secondPageRecycleSymbol.wav" />
     <Content Include="recs\timpTerminat.wav" />
     <None Include="images\ImagineInapoi.jpg" />

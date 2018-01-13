@@ -21,11 +21,64 @@ namespace IOC.Resources
         {
             InitializeComponent();
             //timeLable.Text = timeLeft.ToString();
+            checkMark.Visible = false;
+            cross_mark1.Visible = false;
+            cross_mark2.Visible = false;
+
+            SoundPlayer player = new SoundPlayer();
+            player.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + "..\\..\\recs\\hartie_despartire.wav";
+            player.Play();
         }
 
-        private void pictureBox3_Click(object sender, EventArgs e)
+        private void back_button_Click(object sender, EventArgs e)
         {
+            this.Hide();
+            Paper_page pp = new Paper_page();
+            pp.ShowDialog();
+        }
 
+        private void button_hartie_Click(object sender, EventArgs e)
+        {
+            SoundPlayer player = new SoundPlayer();
+            player.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + "..\\..\\recs\\wrong.wav";
+            player.Play();
+            cross_mark1.Visible = true;
+            cross_mark2.Visible = false;
+        }
+
+        private async void button1_Click(object sender, EventArgs e)
+        {
+            SoundPlayer player = new SoundPlayer();
+            player.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + "..\\..\\recs\\correct.wav";
+            player.Play();
+            checkMark.Visible = true;
+            cross_mark1.Visible = false;
+            cross_mark2.Visible = false;
+            button_hartie.Enabled = false;
+            button2.Enabled = false;
+
+            await Task.Delay(1000);
+
+            this.Hide();
+            PlasticPage pp = new PlasticPage();
+            pp.ShowDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            SoundPlayer player = new SoundPlayer();
+            player.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + "..\\..\\recs\\wrong.wav";
+            player.Play();
+            cross_mark1.Visible = false;
+            cross_mark2.Visible = true;
+            
+        }
+
+        private void next_button_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            PlasticPage pp = new PlasticPage();
+            pp.ShowDialog();
         }
 
         /*private void timer1_Tick(object sender, EventArgs e)

@@ -11,11 +11,19 @@ using System.Media;
 
 namespace IOC
 {
-    public partial class Plastic_despartire : Form
+    public partial class Plastic_Despartire : Form
     {
-        public Plastic_despartire()
+        public Plastic_Despartire()
         {
             InitializeComponent();
+            check.Visible = false;
+            crossMark.Visible = false;
+            crossMark1.Visible = false;
+
+            SoundPlayer player = new SoundPlayer();
+            player.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + "..\\..\\recs\\plastic_despartire.wav";
+            player.Play();
+
         }
 
         private void Plastic_despartire_Load(object sender, EventArgs e)
@@ -28,27 +36,47 @@ namespace IOC
 
         }
 
-        private void ButonDespartireSilabePlastic_Click(object sender, EventArgs e)
+        private async void ButonDespartireSilabePlastic_Click(object sender, EventArgs e)
         {
-          System.Media.SoundPlayer SunetButonCorect = new System.Media.SoundPlayer(@"C:\Users\Razvan\Music\SunetCorect.wav");
-            SunetButonCorect.Play();
+            SoundPlayer player = new SoundPlayer();
+            player.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + "..\\..\\recs\\correct.wav";
+            player.Play();
+
+            check.Visible = true;
+            crossMark.Visible = false;
+            crossMark1.Visible = false;
+            ButonDespartireSilabePlastic1.Enabled = false;
+            ButonDespartireSilabePlastic2.Enabled = false;
+
+            await Task.Delay(1000);
+
         }
 
         private void ButonDespartireSilabePlastic1_Click(object sender, EventArgs e)
         {
-            System.Media.SoundPlayer SunetButonIncorect = new System.Media.SoundPlayer(@"C:\Users\Razvan\Music\SunetEroare2.wav");
-            SunetButonIncorect.Play();
+            SoundPlayer player = new SoundPlayer();
+            player.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + "..\\..\\recs\\wrong.wav";
+            player.Play();
+
+            crossMark.Visible = true;
+            crossMark1.Visible = false;
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            System.Media.SoundPlayer SunetButonIncorect = new System.Media.SoundPlayer(@"C:\Users\Razvan\Music\SunetEroare2.wav");
-            SunetButonIncorect.Play();
+            SoundPlayer player = new SoundPlayer();
+            player.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + "..\\..\\recs\\wrong.wav";
+            player.Play();
+
+            crossMark1.Visible = true;
+            crossMark.Visible = false;
         }
 
-        private void ButonInapoiPlasticDespartire_Click(object sender, EventArgs e)
+        private void back_button_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            PlasticPage pp = new PlasticPage();
+            pp.ShowDialog();
         }
     }
 }

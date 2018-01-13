@@ -33,7 +33,7 @@ namespace IOC
 
         private async void Paper_page_Load(object sender, EventArgs e)
         {
-            recyling_paper.Visible = false;
+            paperBin.Visible = false;
             cereal_box.Visible = false;
             down.Visible = false;
             paperEqualsTree.Visible = false;
@@ -48,7 +48,7 @@ namespace IOC
             cuttingTrees.Visible = false;
 
             await Task.Delay(1000);
-            recyling_paper.Visible = true;
+            paperBin.Visible = true;
             await Task.Delay(500);
             cereal_box.Visible = true;
             await Task.Delay(500);
@@ -74,6 +74,13 @@ namespace IOC
             await Task.Delay(500);
             cuttingTrees.Visible = true;
             await Task.Delay(500);
+        }
+
+        private void next_button_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Resources.Hartie_Despartire st = new Resources.Hartie_Despartire();
+            st.ShowDialog();
         }
     }
 }

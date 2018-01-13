@@ -6,10 +6,10 @@ namespace IOC
 {
     public partial class START : Form
     {
+        
         public START()
         {
             InitializeComponent();
-
             SoundPlayer player = new SoundPlayer();
             player.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + "..\\..\\recs\\FirstPageRob.wav";
             player.Play();
@@ -21,6 +21,13 @@ namespace IOC
             this.Hide();
             SecondPage sp = new SecondPage();
             sp.ShowDialog();
+        }
+
+        private void START_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            SoundPlayer player = new SoundPlayer();
+            player.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + "..\\..\\recs\\FirstPageRob.wav";
+            player.Stop();
         }
     }
 }

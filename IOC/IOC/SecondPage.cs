@@ -32,20 +32,6 @@ namespace IOC
 
         }
 
-        private void paperButton_MouseHover(object sender, EventArgs e)
-        {
-            SoundPlayer player2 = new SoundPlayer();
-            player2.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + "..\\..\\recs\\paperImage.wav";
-            player2.Play();
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            START st = new START();
-            st.ShowDialog();
-        }
-
 
         private void paperButton_Click(object sender, EventArgs e)
         {
@@ -66,6 +52,13 @@ namespace IOC
             labelRefolosire.Visible = true;
             await Task.Delay(500);
             labelReciclare.Visible = true;
+        }
+
+        private void next_button_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Paper_page pp = new Paper_page();
+            pp.ShowDialog();
         }
     }
     }

@@ -203,9 +203,9 @@ namespace IOC.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap newspapaer__1_ {
+        internal static System.Drawing.Bitmap newspapaer {
             get {
-                object obj = ResourceManager.GetObject("newspapaer__1_", resourceCulture);
+                object obj = ResourceManager.GetObject("newspapaer", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -353,9 +353,9 @@ namespace IOC.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap up_green_arrow__ {
+        internal static System.Drawing.Bitmap up_green_arrow {
             get {
-                object obj = ResourceManager.GetObject("up_green_arrow__", resourceCulture);
+                object obj = ResourceManager.GetObject("up_green_arrow", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

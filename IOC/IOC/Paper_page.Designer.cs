@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Paper_page));
             this.cereal_box = new System.Windows.Forms.PictureBox();
-            this.recyling_paper = new System.Windows.Forms.PictureBox();
             this.colored_paper = new System.Windows.Forms.PictureBox();
             this.newspaper = new System.Windows.Forms.PictureBox();
             this.notebook = new System.Windows.Forms.PictureBox();
@@ -42,8 +42,9 @@
             this.cuttingTrees = new System.Windows.Forms.PictureBox();
             this.cuttingTree = new System.Windows.Forms.PictureBox();
             this.cryingTree = new System.Windows.Forms.PictureBox();
+            this.next_button = new System.Windows.Forms.PictureBox();
+            this.paperBin = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.cereal_box)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.recyling_paper)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.colored_paper)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.newspaper)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.notebook)).BeginInit();
@@ -56,6 +57,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.cuttingTrees)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cuttingTree)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cryingTree)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.next_button)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.paperBin)).BeginInit();
             this.SuspendLayout();
             // 
             // cereal_box
@@ -63,22 +66,11 @@
             this.cereal_box.BackColor = System.Drawing.Color.Transparent;
             this.cereal_box.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.cereal_box.Image = global::IOC.Properties.Resources.cereal_box;
-            this.cereal_box.Location = new System.Drawing.Point(543, 60);
+            this.cereal_box.Location = new System.Drawing.Point(540, 51);
             this.cereal_box.Name = "cereal_box";
-            this.cereal_box.Size = new System.Drawing.Size(75, 75);
+            this.cereal_box.Size = new System.Drawing.Size(78, 77);
             this.cereal_box.TabIndex = 0;
             this.cereal_box.TabStop = false;
-            // 
-            // recyling_paper
-            // 
-            this.recyling_paper.BackColor = System.Drawing.Color.Transparent;
-            this.recyling_paper.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.recyling_paper.Image = global::IOC.Properties.Resources.kid_recycling_paper;
-            this.recyling_paper.Location = new System.Drawing.Point(530, 260);
-            this.recyling_paper.Name = "recyling_paper";
-            this.recyling_paper.Size = new System.Drawing.Size(100, 100);
-            this.recyling_paper.TabIndex = 1;
-            this.recyling_paper.TabStop = false;
             // 
             // colored_paper
             // 
@@ -95,7 +87,7 @@
             // 
             this.newspaper.BackColor = System.Drawing.Color.Transparent;
             this.newspaper.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.newspaper.Image = global::IOC.Properties.Resources.newspapaer__1_;
+            this.newspaper.Image = global::IOC.Properties.Resources.newspapaer;
             this.newspaper.Location = new System.Drawing.Point(830, 276);
             this.newspaper.Name = "newspaper";
             this.newspaper.Size = new System.Drawing.Size(75, 75);
@@ -116,7 +108,7 @@
             // down
             // 
             this.down.Image = global::IOC.Properties.Resources.down_green_arrow;
-            this.down.Location = new System.Drawing.Point(569, 185);
+            this.down.Location = new System.Drawing.Point(569, 156);
             this.down.Name = "down";
             this.down.Size = new System.Drawing.Size(15, 30);
             this.down.TabIndex = 5;
@@ -124,7 +116,7 @@
             // 
             // up
             // 
-            this.up.Image = global::IOC.Properties.Resources.up_green_arrow__;
+            this.up.Image = global::IOC.Properties.Resources.up_green_arrow;
             this.up.Location = new System.Drawing.Point(569, 399);
             this.up.Name = "up";
             this.up.Size = new System.Drawing.Size(15, 30);
@@ -151,6 +143,8 @@
             // 
             // Paper_page_back_button
             // 
+            this.Paper_page_back_button.BackColor = System.Drawing.Color.Transparent;
+            this.Paper_page_back_button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Paper_page_back_button.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Paper_page_back_button.Image = global::IOC.Properties.Resources.back_button;
             this.Paper_page_back_button.Location = new System.Drawing.Point(22, 12);
@@ -196,6 +190,30 @@
             this.cryingTree.TabIndex = 14;
             this.cryingTree.TabStop = false;
             // 
+            // next_button
+            // 
+            this.next_button.BackColor = System.Drawing.Color.Transparent;
+            this.next_button.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("next_button.BackgroundImage")));
+            this.next_button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.next_button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.next_button.Location = new System.Drawing.Point(1002, 12);
+            this.next_button.Name = "next_button";
+            this.next_button.Size = new System.Drawing.Size(70, 70);
+            this.next_button.TabIndex = 15;
+            this.next_button.TabStop = false;
+            this.next_button.Click += new System.EventHandler(this.next_button_Click);
+            // 
+            // paperBin
+            // 
+            this.paperBin.BackColor = System.Drawing.Color.Transparent;
+            this.paperBin.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("paperBin.BackgroundImage")));
+            this.paperBin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.paperBin.Location = new System.Drawing.Point(506, 204);
+            this.paperBin.Name = "paperBin";
+            this.paperBin.Size = new System.Drawing.Size(157, 172);
+            this.paperBin.TabIndex = 16;
+            this.paperBin.TabStop = false;
+            // 
             // Paper_page
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -204,6 +222,8 @@
             this.BackgroundImage = global::IOC.Properties.Resources.paper_page_background1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1084, 661);
+            this.Controls.Add(this.paperBin);
+            this.Controls.Add(this.next_button);
             this.Controls.Add(this.cryingTree);
             this.Controls.Add(this.cuttingTree);
             this.Controls.Add(this.cuttingTrees);
@@ -216,7 +236,6 @@
             this.Controls.Add(this.notebook);
             this.Controls.Add(this.newspaper);
             this.Controls.Add(this.colored_paper);
-            this.Controls.Add(this.recyling_paper);
             this.Controls.Add(this.cereal_box);
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(1100, 700);
@@ -226,7 +245,6 @@
             this.Text = "Paper_Page";
             this.Load += new System.EventHandler(this.Paper_page_Load);
             ((System.ComponentModel.ISupportInitialize)(this.cereal_box)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.recyling_paper)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.colored_paper)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.newspaper)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.notebook)).EndInit();
@@ -239,13 +257,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.cuttingTrees)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cuttingTree)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cryingTree)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.next_button)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.paperBin)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
         private System.Windows.Forms.PictureBox cereal_box;
-        private System.Windows.Forms.PictureBox recyling_paper;
         private System.Windows.Forms.PictureBox colored_paper;
         private System.Windows.Forms.PictureBox newspaper;
         private System.Windows.Forms.PictureBox notebook;
@@ -258,6 +277,8 @@
         private System.Windows.Forms.PictureBox cuttingTrees;
         private System.Windows.Forms.PictureBox cuttingTree;
         private System.Windows.Forms.PictureBox cryingTree;
+        private System.Windows.Forms.PictureBox next_button;
+        private System.Windows.Forms.PictureBox paperBin;
     }
 }
 
