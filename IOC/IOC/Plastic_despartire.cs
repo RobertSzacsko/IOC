@@ -78,5 +78,30 @@ namespace IOC
             PlasticPage pp = new PlasticPage();
             pp.ShowDialog();
         }
+
+        private void ButonDespartireSilabePlastic_Enter(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void ButonDespartireSilabePlastic_MouseHover(object sender, EventArgs e)
+        {
+            var width = ButonDespartireSilabePlastic.Size.Width;
+            var height = ButonDespartireSilabePlastic.Size.Height;
+            var x = ButonDespartireSilabePlastic.Location.X;
+            var y = ButonDespartireSilabePlastic.Location.Y;
+
+            ButonDespartireSilabePlastic.SetBounds(x - 5, y - 5, width + 10, height + 10);
+        }
+
+        private void ButonDespartireSilabePlastic_MouseLeave(object sender, EventArgs e)
+        {
+            var width = ButonDespartireSilabePlastic.Size.Width;
+            var height = ButonDespartireSilabePlastic.Size.Height;
+            var x = ButonDespartireSilabePlastic.Location.X;
+            var y = ButonDespartireSilabePlastic.Location.Y;
+
+            ButonDespartireSilabePlastic.SetBounds(x + 5, y + 5, width - 10, height - 10);
+        }
     }
 }

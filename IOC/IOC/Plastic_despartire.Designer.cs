@@ -55,6 +55,9 @@
             this.ButonDespartireSilabePlastic.TabIndex = 2;
             this.ButonDespartireSilabePlastic.UseVisualStyleBackColor = false;
             this.ButonDespartireSilabePlastic.Click += new System.EventHandler(this.ButonDespartireSilabePlastic_Click);
+            this.ButonDespartireSilabePlastic.Enter += new System.EventHandler(this.ButonDespartireSilabePlastic_Enter);
+            this.ButonDespartireSilabePlastic.MouseLeave += new System.EventHandler(this.ButonDespartireSilabePlastic_MouseLeave);
+            this.ButonDespartireSilabePlastic.MouseHover += new System.EventHandler(this.ButonDespartireSilabePlastic_MouseHover);
             // 
             // ButonDespartireSilabePlastic1
             // 
