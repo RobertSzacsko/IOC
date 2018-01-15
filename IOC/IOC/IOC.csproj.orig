@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Reciclare_Despartire.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reciclare_Despartire.Designer.cs">
+      <DependentUpon>Reciclare_Despartire.cs</DependentUpon>
+    </Compile>
     <Compile Include="GamePage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,22 +89,32 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-<<<<<<< Updated upstream
     <Compile Include="Hartie_Despartire.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Hartie_Despartire.Designer.cs">
       <DependentUpon>Hartie_Despartire.cs</DependentUpon>
     </Compile>
-    <Compile Include="Sticla.cs">
-=======
-    <Compile Include="SticlaPage.cs">
->>>>>>> Stashed changes
-      <SubType>Form</SubType>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+<<<<<<< Updated upstream
     <Compile Include="SticlaPage.Designer.cs">
       <DependentUpon>SticlaPage.cs</DependentUpon>
     </Compile>
+    <Compile Include="Sticla_Despartire.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sticla_Despartire.Designer.cs">
+      <DependentUpon>Sticla_Despartire.cs</DependentUpon>
+    </Compile>
+=======
+    <EmbeddedResource Include="Reciclare_Despartire.resx">
+      <DependentUpon>Reciclare_Despartire.cs</DependentUpon>
+    </EmbeddedResource>
+>>>>>>> Stashed changes
     <EmbeddedResource Include="GamePage.resx">
       <DependentUpon>GamePage.cs</DependentUpon>
     </EmbeddedResource>
@@ -107,6 +123,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="First_Page.resx">
       <DependentUpon>First_Page.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <Compile Include="SecondPage.cs">
       <SubType>Form</SubType>
@@ -134,6 +151,9 @@
     <EmbeddedResource Include="SticlaPage.resx">
       <DependentUpon>SticlaPage.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Sticla_Despartire.resx">
+      <DependentUpon>Sticla_Despartire.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -151,13 +171,28 @@
     <None Include="images\first_page_background.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="images\back_button.png" />
+    <Content Include="images\2.jpg" />
+    <Content Include="images\check_mark.jpg" />
+    <Content Include="images\check_mark.png" />
+    <Content Include="images\glassPaperBackground.jpeg" />
+    <Content Include="recs\correct.wav" />
+    <Content Include="recs\hartie_despartire.wav" />
+    <Content Include="recs\plastic_despartire.wav" />
+    <Content Include="recs\sticla_despartire.wav" />
+    <Content Include="recs\wrong.wav" />
+    <Content Include="Resources\back_button.png" />
+    <Content Include="Resources\glassPaperBackground.jpg" />
+    <Content Include="Resources\Grass-PNG.png" />
+    <Content Include="Resources\newspapaer %281%29.png" />
+    <Content Include="Resources\up_green_arrow -.jpg" />
     <None Include="Resources\Sageata21.jpg" />
     <None Include="Resources\SageataFinal.png" />
-    <None Include="Resources\Sageata2.jpg" />
     <None Include="Resources\Sageata.jpg" />
     <None Include="Resources\WhatsApp Image 2018-01-07 at 15.32.39.jpeg" />
     <None Include="Resources\ImagineInapoi.jpg" />
-    <None Include="Resources\img1 - Copy.jpg" />
+    <Content Include="images\back_button.png" />
+    <Content Include="images\up_green_arrow.jpg" />
     <Content Include="recs\secondPageRecycleSymbol.wav" />
     <Content Include="recs\timpTerminat.wav" />
     <None Include="images\ImagineInapoi.jpg" />
@@ -192,7 +227,9 @@
   <ItemGroup>
     <None Include="images\paper_page_background.jpg" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="images\colored_paper.jpg" />
   </ItemGroup>

@@ -18,35 +18,26 @@ namespace IOC
             InitializeComponent();
 
             SoundPlayer player2 = new SoundPlayer();
-            player2.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + "..\\..\\recs\\secondPageRecycleSymbol.wav";
+            player2.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + "..\\..\\recs\\aDouaPagina.wav";
             player2.Play();
+            next_button.Visible = false;
+            wait();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private async void wait()
+
         {
+            await Task.Delay(37000);
+            next_button.Visible = true;
 
         }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-
-        private void paperButton_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            Paper_page pp = new Paper_page();
-            pp.ShowDialog();
-        }
-
 
         private async void SecondPage_Load(object sender, EventArgs e)
         {
             labelReducere.Visible = false;
             labelRefolosire.Visible = false;
             labelReciclare.Visible = false;
-            await Task.Delay(20000);
+            await Task.Delay(21000);
             labelReducere.Visible = true;
             await Task.Delay(500);
             labelRefolosire.Visible = true;
@@ -57,7 +48,7 @@ namespace IOC
         private void next_button_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Paper_page pp = new Paper_page();
+            ReducereDespartire pp = new ReducereDespartire();
             pp.ShowDialog();
         }
     }

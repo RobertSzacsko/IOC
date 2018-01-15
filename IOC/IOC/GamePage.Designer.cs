@@ -53,6 +53,7 @@
             this.MaximumSize = new System.Drawing.Size(1100, 700);
             this.MinimumSize = new System.Drawing.Size(1100, 700);
             this.Name = "GamePage";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "GamePage";
             this.Load += new System.EventHandler(this.GamePage_Load);
             ((System.ComponentModel.ISupportInitialize)(this.Grass)).EndInit();

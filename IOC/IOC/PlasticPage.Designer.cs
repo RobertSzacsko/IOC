@@ -33,7 +33,6 @@
             this.cupWithStraw = new System.Windows.Forms.PictureBox();
             this.turtle = new System.Windows.Forms.PictureBox();
             this.next_button = new System.Windows.Forms.PictureBox();
-            this.back_button = new System.Windows.Forms.PictureBox();
             this.illEarth = new System.Windows.Forms.PictureBox();
             this.juice = new System.Windows.Forms.PictureBox();
             this.toys = new System.Windows.Forms.PictureBox();
@@ -46,7 +45,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.cupWithStraw)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.turtle)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.next_button)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.back_button)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.illEarth)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.juice)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.toys)).BeginInit();
@@ -70,6 +68,7 @@
             // 
             // cupWithStraw
             // 
+            this.cupWithStraw.BackColor = System.Drawing.Color.Transparent;
             this.cupWithStraw.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("cupWithStraw.BackgroundImage")));
             this.cupWithStraw.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.cupWithStraw.Location = new System.Drawing.Point(820, 131);
@@ -103,19 +102,6 @@
             this.next_button.TabStop = false;
             this.next_button.Click += new System.EventHandler(this.next_button_Click);
             // 
-            // back_button
-            // 
-            this.back_button.BackColor = System.Drawing.Color.Transparent;
-            this.back_button.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("back_button.BackgroundImage")));
-            this.back_button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.back_button.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.back_button.Location = new System.Drawing.Point(12, 12);
-            this.back_button.Name = "back_button";
-            this.back_button.Size = new System.Drawing.Size(70, 70);
-            this.back_button.TabIndex = 6;
-            this.back_button.TabStop = false;
-            this.back_button.Click += new System.EventHandler(this.back_button_Click);
-            // 
             // illEarth
             // 
             this.illEarth.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("illEarth.BackgroundImage")));
@@ -128,6 +114,7 @@
             // 
             // juice
             // 
+            this.juice.BackColor = System.Drawing.Color.Transparent;
             this.juice.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("juice.BackgroundImage")));
             this.juice.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.juice.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -161,6 +148,7 @@
             // 
             // up
             // 
+            this.up.BackColor = System.Drawing.Color.Transparent;
             this.up.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("up.BackgroundImage")));
             this.up.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.up.Location = new System.Drawing.Point(617, 357);
@@ -171,6 +159,7 @@
             // 
             // pictureBox3
             // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.BackgroundImage")));
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox3.Location = new System.Drawing.Point(453, 248);
@@ -181,6 +170,7 @@
             // 
             // pictureBox4
             // 
+            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox4.BackgroundImage")));
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox4.Location = new System.Drawing.Point(743, 247);
@@ -215,7 +205,6 @@
             this.Controls.Add(this.toys);
             this.Controls.Add(this.juice);
             this.Controls.Add(this.illEarth);
-            this.Controls.Add(this.back_button);
             this.Controls.Add(this.next_button);
             this.Controls.Add(this.cupWithStraw);
             this.Controls.Add(this.straws);
@@ -232,7 +221,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.cupWithStraw)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.turtle)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.next_button)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.back_button)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.illEarth)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.juice)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.toys)).EndInit();
@@ -250,7 +238,6 @@
         private System.Windows.Forms.PictureBox cupWithStraw;
         private System.Windows.Forms.PictureBox turtle;
         private System.Windows.Forms.PictureBox next_button;
-        private System.Windows.Forms.PictureBox back_button;
         private System.Windows.Forms.PictureBox illEarth;
         private System.Windows.Forms.PictureBox juice;
         private System.Windows.Forms.PictureBox toys;

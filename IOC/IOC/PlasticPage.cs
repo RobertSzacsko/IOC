@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -15,31 +16,27 @@ namespace IOC
         public PlasticPage()
         {
             InitializeComponent();
-        }
 
-        private void button1_Click(object sender, EventArgs e)
+            SoundPlayer player2 = new SoundPlayer();
+            player2.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + "..\\..\\recs\\plastic.wav";
+            player2.Play();
+
+            next_button.Visible = false;
+            wait();
+        }
+        private async void wait()
+
         {
-            this.Hide();
-            SecondPage sc = new SecondPage();
-            sc.ShowDialog();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
+            await Task.Delay(23000);
+            next_button.Visible = true;
 
         }
+
 
         private void next_button_Click(object sender, EventArgs e)
         {
             this.Hide();
             Plastic_Despartire st = new Plastic_Despartire();
-            st.ShowDialog();
-        }
-
-        private void back_button_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            Resources.Hartie_Despartire st = new Resources.Hartie_Despartire();
             st.ShowDialog();
         }
 
