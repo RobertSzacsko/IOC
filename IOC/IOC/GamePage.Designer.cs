@@ -72,6 +72,7 @@
             this.pictureStartGame.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureStartGame.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureStartGame.Enabled = false;
+            this.pictureStartGame.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.pictureStartGame.Location = new System.Drawing.Point(981, 0);
             this.pictureStartGame.Margin = new System.Windows.Forms.Padding(0);
             this.pictureStartGame.Name = "pictureStartGame";
@@ -89,8 +90,9 @@
             // 
             this.timeLabel.AutoSize = true;
             this.timeLabel.BackColor = System.Drawing.Color.Transparent;
-            this.timeLabel.Font = new System.Drawing.Font("Showcard Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.timeLabel.Location = new System.Drawing.Point(545, 32);
+            this.timeLabel.Font = new System.Drawing.Font("Showcard Gothic", 18F);
+            this.timeLabel.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.timeLabel.Location = new System.Drawing.Point(474, 32);
             this.timeLabel.Name = "timeLabel";
             this.timeLabel.Size = new System.Drawing.Size(0, 30);
             this.timeLabel.TabIndex = 1;
@@ -102,6 +104,7 @@
             this.pictureCosHartie.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureCosHartie.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureCosHartie.Enabled = false;
+            this.pictureCosHartie.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.pictureCosHartie.Location = new System.Drawing.Point(230, 255);
             this.pictureCosHartie.Margin = new System.Windows.Forms.Padding(0);
             this.pictureCosHartie.Name = "pictureCosHartie";
@@ -117,6 +120,7 @@
             this.pictureCosPlastic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureCosPlastic.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureCosPlastic.Enabled = false;
+            this.pictureCosPlastic.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.pictureCosPlastic.Location = new System.Drawing.Point(435, 270);
             this.pictureCosPlastic.Margin = new System.Windows.Forms.Padding(0);
             this.pictureCosPlastic.Name = "pictureCosPlastic";
@@ -132,6 +136,7 @@
             this.pictureCosSticla.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureCosSticla.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureCosSticla.Enabled = false;
+            this.pictureCosSticla.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.pictureCosSticla.Location = new System.Drawing.Point(656, 290);
             this.pictureCosSticla.Margin = new System.Windows.Forms.Padding(0);
             this.pictureCosSticla.Name = "pictureCosSticla";
@@ -147,6 +152,7 @@
             this.paharPlastic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.paharPlastic.Cursor = System.Windows.Forms.Cursors.Hand;
             this.paharPlastic.Enabled = false;
+            this.paharPlastic.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.paharPlastic.Location = new System.Drawing.Point(38, 542);
             this.paharPlastic.Margin = new System.Windows.Forms.Padding(0);
             this.paharPlastic.Name = "paharPlastic";
@@ -162,6 +168,7 @@
             this.newsPapaerHartie.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.newsPapaerHartie.Cursor = System.Windows.Forms.Cursors.Hand;
             this.newsPapaerHartie.Enabled = false;
+            this.newsPapaerHartie.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.newsPapaerHartie.Location = new System.Drawing.Point(129, 504);
             this.newsPapaerHartie.Margin = new System.Windows.Forms.Padding(0);
             this.newsPapaerHartie.Name = "newsPapaerHartie";
@@ -177,6 +184,7 @@
             this.paharSticla.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.paharSticla.Cursor = System.Windows.Forms.Cursors.Hand;
             this.paharSticla.Enabled = false;
+            this.paharSticla.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.paharSticla.Location = new System.Drawing.Point(230, 542);
             this.paharSticla.Margin = new System.Windows.Forms.Padding(0);
             this.paharSticla.Name = "paharSticla";
@@ -192,6 +200,7 @@
             this.sucPlastic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.sucPlastic.Cursor = System.Windows.Forms.Cursors.Hand;
             this.sucPlastic.Enabled = false;
+            this.sucPlastic.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.sucPlastic.Location = new System.Drawing.Point(445, 542);
             this.sucPlastic.Margin = new System.Windows.Forms.Padding(0);
             this.sucPlastic.Name = "sucPlastic";
@@ -207,6 +216,7 @@
             this.sticlaNeagra.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.sticlaNeagra.Cursor = System.Windows.Forms.Cursors.Hand;
             this.sticlaNeagra.Enabled = false;
+            this.sticlaNeagra.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.sticlaNeagra.Location = new System.Drawing.Point(331, 531);
             this.sticlaNeagra.Margin = new System.Windows.Forms.Padding(0);
             this.sticlaNeagra.Name = "sticlaNeagra";
@@ -222,6 +232,7 @@
             this.cerealeBoxHartie.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.cerealeBoxHartie.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cerealeBoxHartie.Enabled = false;
+            this.cerealeBoxHartie.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.cerealeBoxHartie.Location = new System.Drawing.Point(700, 525);
             this.cerealeBoxHartie.Margin = new System.Windows.Forms.Padding(0);
             this.cerealeBoxHartie.Name = "cerealeBoxHartie";
@@ -237,6 +248,7 @@
             this.masinaPlastic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.masinaPlastic.Cursor = System.Windows.Forms.Cursors.Hand;
             this.masinaPlastic.Enabled = false;
+            this.masinaPlastic.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.masinaPlastic.Location = new System.Drawing.Point(832, 549);
             this.masinaPlastic.Margin = new System.Windows.Forms.Padding(0);
             this.masinaPlastic.Name = "masinaPlastic";
@@ -252,6 +264,7 @@
             this.oglindaSticla.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.oglindaSticla.Cursor = System.Windows.Forms.Cursors.Hand;
             this.oglindaSticla.Enabled = false;
+            this.oglindaSticla.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.oglindaSticla.Location = new System.Drawing.Point(968, 504);
             this.oglindaSticla.Margin = new System.Windows.Forms.Padding(0);
             this.oglindaSticla.Name = "oglindaSticla";
@@ -267,6 +280,7 @@
             this.lebadaHartie.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.lebadaHartie.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lebadaHartie.Enabled = false;
+            this.lebadaHartie.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.lebadaHartie.Location = new System.Drawing.Point(565, 549);
             this.lebadaHartie.Margin = new System.Windows.Forms.Padding(0);
             this.lebadaHartie.Name = "lebadaHartie";
@@ -298,6 +312,7 @@
             this.pictureRepeta.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureRepeta.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureRepeta.Image = ((System.Drawing.Image)(resources.GetObject("pictureRepeta.Image")));
+            this.pictureRepeta.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.pictureRepeta.Location = new System.Drawing.Point(991, 100);
             this.pictureRepeta.Margin = new System.Windows.Forms.Padding(0);
             this.pictureRepeta.Name = "pictureRepeta";
@@ -329,11 +344,11 @@
             this.Controls.Add(this.pictureCosHartie);
             this.Controls.Add(this.timeLabel);
             this.Controls.Add(this.pictureStartGame);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximumSize = new System.Drawing.Size(1100, 700);
             this.MinimumSize = new System.Drawing.Size(1100, 700);
             this.Name = "GamePage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "GamePage";
             this.Load += new System.EventHandler(this.GamePage_Load);
             this.Shown += new System.EventHandler(this.GamePage_Shown);
             ((System.ComponentModel.ISupportInitialize)(this.pictureStartGame)).EndInit();

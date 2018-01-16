@@ -174,12 +174,12 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button_hartie);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(1100, 700);
             this.MinimumSize = new System.Drawing.Size(1100, 700);
             this.Name = "Hartie_Despartire";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Hartie_Despartire";
             ((System.ComponentModel.ISupportInitialize)(this.cross_mark1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cross_mark2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkMark)).EndInit();

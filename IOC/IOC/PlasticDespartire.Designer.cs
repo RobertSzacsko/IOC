@@ -164,13 +164,13 @@
             this.Controls.Add(this.ButonDespartireSilabePlastic2);
             this.Controls.Add(this.ButonDespartireSilabePlastic1);
             this.Controls.Add(this.ButonDespartireSilabePlastic);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(1100, 700);
             this.MinimumSize = new System.Drawing.Size(1100, 700);
             this.Name = "Plastic_Despartire";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Plastic_despartire";
             ((System.ComponentModel.ISupportInitialize)(this.crossMark1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.crossMark)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.check)).EndInit();

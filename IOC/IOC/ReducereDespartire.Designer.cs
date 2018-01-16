@@ -161,6 +161,7 @@
             this.Controls.Add(this.two);
             this.Controls.Add(this.four);
             this.Controls.Add(this.six);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(1100, 700);
             this.MinimumSize = new System.Drawing.Size(1100, 700);

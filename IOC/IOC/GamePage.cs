@@ -64,9 +64,9 @@ namespace IOC
             else
             {
                 timerGame.Stop();
-                sp.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + "..\\..\\recs\\timpTerminat.wav";
+                sp.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + "..\\..\\recs\\gataMesaj.wav";
                 sp.Play();
-                timeLabel.Text = "GATA";
+                timeLabel.Text = "TIMP TERMINAT";
                 timeLabel.ForeColor = Color.Red;
                 setEnabled(false);
                 pictureStartGame.Enabled = false;
@@ -399,7 +399,7 @@ namespace IOC
 
         private void workerForTimerIncepeSunetDeInceput_DoWork(object sender, System.ComponentModel.DoWorkEventArgs e)
         {
-            sp.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + @"..\..\recs\joc.wav";
+            sp.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + @"..\..\recs\joc1.wav";
             sp.Play();
             System.Threading.Thread.Sleep(19000);
         }

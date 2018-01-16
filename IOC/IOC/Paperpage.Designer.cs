@@ -247,12 +247,12 @@
             this.Controls.Add(this.notebook);
             this.Controls.Add(this.colored_paper);
             this.Controls.Add(this.cereal_box);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(1100, 700);
             this.MinimumSize = new System.Drawing.Size(1100, 700);
             this.Name = "PaperPage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Paper_Page";
             this.Load += new System.EventHandler(this.Paper_page_Load);
             ((System.ComponentModel.ISupportInitialize)(this.cereal_box)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.colored_paper)).EndInit();

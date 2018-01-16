@@ -157,11 +157,11 @@
             this.Controls.Add(this.crossMark);
             this.Controls.Add(this.checkMark);
             this.Controls.Add(this.crossMark1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximumSize = new System.Drawing.Size(1100, 700);
             this.MinimumSize = new System.Drawing.Size(1100, 700);
             this.Name = "SticlaDespartire";
             this.ShowIcon = false;
-            this.Text = "Sticla_Despartire";
             ((System.ComponentModel.ISupportInitialize)(this.crossMark1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkMark)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.crossMark)).EndInit();

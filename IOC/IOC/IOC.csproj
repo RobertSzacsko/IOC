@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>recycleIcon.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -194,6 +197,7 @@
     <Content Include="recs\plastic_despartire.wav" />
     <Content Include="recs\sticla_despartire.wav" />
     <Content Include="recs\wrong.wav" />
+    <Content Include="recycleIcon.ico" />
     <Content Include="Resources\back_button.png" />
     <Content Include="Resources\firstPageBackground.jpg" />
     <Content Include="Resources\glassPaperBackground.jpg" />

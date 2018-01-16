@@ -209,13 +209,13 @@
             this.Controls.Add(this.cupWithStraw);
             this.Controls.Add(this.straws);
             this.Controls.Add(this.turtle);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(1100, 700);
             this.MinimumSize = new System.Drawing.Size(1100, 700);
             this.Name = "PlasticPage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "PlasticPage";
             this.Load += new System.EventHandler(this.PlasticPage_Load);
             ((System.ComponentModel.ISupportInitialize)(this.straws)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cupWithStraw)).EndInit();
