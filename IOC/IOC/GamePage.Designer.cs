@@ -293,13 +293,15 @@
             // 
             // pictureRepeta
             // 
+            this.pictureRepeta.BackColor = System.Drawing.Color.Transparent;
             this.pictureRepeta.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureRepeta.BackgroundImage")));
             this.pictureRepeta.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureRepeta.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureRepeta.Location = new System.Drawing.Point(991, 111);
+            this.pictureRepeta.Image = ((System.Drawing.Image)(resources.GetObject("pictureRepeta.Image")));
+            this.pictureRepeta.Location = new System.Drawing.Point(991, 100);
             this.pictureRepeta.Margin = new System.Windows.Forms.Padding(0);
             this.pictureRepeta.Name = "pictureRepeta";
-            this.pictureRepeta.Size = new System.Drawing.Size(84, 72);
+            this.pictureRepeta.Size = new System.Drawing.Size(90, 90);
             this.pictureRepeta.TabIndex = 14;
             this.pictureRepeta.TabStop = false;
             this.pictureRepeta.Visible = false;
