@@ -118,7 +118,7 @@ namespace IOC
                 sp.Play();
                 setEnabled(false);
                 pictureRepeta.Show();
-                MessageBox.Show("FELICITĂRI ai reușit să sortezi toate obiectele!!", "Felicitări!!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("FELICITĂRI! AI REUȘIT SĂ SORTEZI TOATE OBIECTELE!", "Felicitări!!", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 
