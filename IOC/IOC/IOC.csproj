@@ -49,6 +49,44 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FirstPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FirstPage.Designer.cs">
+      <DependentUpon>FirstPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GamePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GamePage.Designer.cs">
+      <DependentUpon>GamePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HartieDespartire.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HartieDespartire.Designer.cs">
+      <DependentUpon>HartieDespartire.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Paperpage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Paperpage.Designer.cs">
+      <DependentUpon>Paperpage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PlasticDespartire.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PlasticDespartire.Designer.cs">
+      <DependentUpon>PlasticDespartire.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PlasticPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PlasticPage.Designer.cs">
+      <DependentUpon>PlasticPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -60,47 +98,6 @@
     <Compile Include="ReciclareDespartire.Designer.cs">
       <DependentUpon>ReciclareDespartire.cs</DependentUpon>
     </Compile>
-    <Compile Include="GamePage.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GamePage.Designer.cs">
-      <DependentUpon>GamePage.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Paperpage.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FirstPage.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FirstPage.Designer.cs">
-      <DependentUpon>FirstPage.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Paperpage.Designer.cs">
-      <DependentUpon>Paperpage.cs</DependentUpon>
-    </Compile>
-    <Compile Include="PlasticPage.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PlasticPage.Designer.cs">
-      <DependentUpon>PlasticPage.cs</DependentUpon>
-    </Compile>
-    <Compile Include="PlasticDespartire.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PlasticDespartire.Designer.cs">
-      <DependentUpon>PlasticDespartire.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="HartieDespartire.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="HartieDespartire.Designer.cs">
-      <DependentUpon>HartieDespartire.cs</DependentUpon>
-    </Compile>
-    <EmbeddedResource Include="ReciclareDespartire.resx">
-      <DependentUpon>ReciclareDespartire.cs</DependentUpon>
-    </EmbeddedResource>
     <Compile Include="ReducereDespartire.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -113,27 +110,23 @@
     <Compile Include="RefolosireDespartire.Designer.cs">
       <DependentUpon>RefolosireDespartire.cs</DependentUpon>
     </Compile>
-    <Compile Include="SticlaPage.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="SticlaPage.designer.cs">
-      <DependentUpon>SticlaPage.cs</DependentUpon>
-    </Compile>
     <Compile Include="SticlaDespartire.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="SticlaDespartire.Designer.cs">
       <DependentUpon>SticlaDespartire.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="GamePage.resx">
-      <DependentUpon>GamePage.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Paperpage.resx">
-      <DependentUpon>Paperpage.cs</DependentUpon>
-    </EmbeddedResource>
+    <Compile Include="SticlaPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SticlaPage.Designer.cs">
+      <DependentUpon>SticlaPage.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="FirstPage.resx">
       <DependentUpon>FirstPage.cs</DependentUpon>
-      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GamePage.resx">
+      <DependentUpon>GamePage.cs</DependentUpon>
     </EmbeddedResource>
     <Compile Include="SecondPage.cs">
       <SubType>Form</SubType>
@@ -141,19 +134,25 @@
     <Compile Include="SecondPage.Designer.cs">
       <DependentUpon>SecondPage.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="PlasticPage.resx">
-      <DependentUpon>PlasticPage.cs</DependentUpon>
+    <EmbeddedResource Include="HartieDespartire.resx">
+      <DependentUpon>HartieDespartire.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PaperPage.resx">
+      <DependentUpon>Paperpage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PlasticDespartire.resx">
       <DependentUpon>PlasticDespartire.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PlasticPage.resx">
+      <DependentUpon>PlasticPage.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="HartieDespartire.resx">
-      <DependentUpon>HartieDespartire.cs</DependentUpon>
+    <EmbeddedResource Include="ReciclareDespartire.resx">
+      <DependentUpon>ReciclareDespartire.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ReducereDespartire.resx">
       <DependentUpon>ReducereDespartire.cs</DependentUpon>
@@ -164,11 +163,11 @@
     <EmbeddedResource Include="SecondPage.resx">
       <DependentUpon>SecondPage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SticlaPage.resx">
-      <DependentUpon>SticlaPage.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="SticlaDespartire.resx">
       <DependentUpon>SticlaDespartire.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SticlaPage.resx">
+      <DependentUpon>SticlaPage.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -246,7 +245,9 @@
   <ItemGroup>
     <None Include="images\paper_page_background.jpg" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="images\colored_paper.jpg" />
   </ItemGroup>

@@ -72,8 +72,7 @@
             this.pictureStartGame.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureStartGame.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureStartGame.Enabled = false;
-            this.pictureStartGame.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.pictureStartGame.Location = new System.Drawing.Point(981, 0);
+            this.pictureStartGame.Location = new System.Drawing.Point(846, 9);
             this.pictureStartGame.Margin = new System.Windows.Forms.Padding(0);
             this.pictureStartGame.Name = "pictureStartGame";
             this.pictureStartGame.Size = new System.Drawing.Size(100, 100);
@@ -292,7 +291,6 @@
             // sound
             // 
             this.sound.DoWork += new System.ComponentModel.DoWorkEventHandler(this.checkIsDone_DoWork);
-            this.sound.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.checkIsDone_RunWorkerCompleted);
             // 
             // timerIncepeSunetDeIndeput
             // 
@@ -311,9 +309,7 @@
             this.pictureRepeta.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureRepeta.BackgroundImage")));
             this.pictureRepeta.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureRepeta.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureRepeta.Image = ((System.Drawing.Image)(resources.GetObject("pictureRepeta.Image")));
-            this.pictureRepeta.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.pictureRepeta.Location = new System.Drawing.Point(991, 100);
+            this.pictureRepeta.Location = new System.Drawing.Point(749, 23);
             this.pictureRepeta.Margin = new System.Windows.Forms.Padding(0);
             this.pictureRepeta.Name = "pictureRepeta";
             this.pictureRepeta.Size = new System.Drawing.Size(90, 90);
@@ -350,7 +346,6 @@
             this.Name = "GamePage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.GamePage_Load);
-            this.Shown += new System.EventHandler(this.GamePage_Shown);
             ((System.ComponentModel.ISupportInitialize)(this.pictureStartGame)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureCosHartie)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureCosPlastic)).EndInit();
