@@ -163,7 +163,6 @@
             this.Name = "SticlaDespartire";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Sticla_Despartire";
             ((System.ComponentModel.ISupportInitialize)(this.crossMark1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkMark)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.crossMark)).EndInit();

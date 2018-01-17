@@ -66,14 +66,14 @@ namespace IOC
             else
             {
                 timerGame.Stop();
-                sp.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + "..\\..\\recs\\gataMesaj.wav";
+                sp.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + "..\\..\\recs\\timpTerminat.wav";
                 sp.Play();
-                timeLabel.Text = "TIMP TERMINAT";
+                timeLabel.Text = "GATA";
                 timeLabel.ForeColor = Color.Red;
                 setEnabled(false);
-                pictureRepeta.BackgroundImage = new Bitmap(AppDomain.CurrentDomain.BaseDirectory + @"..\..\images\repeatFinal.png");
+                pictureRepeta.Show();
                 int total = checkStatus2(listObjects);
-                MessageBox.Show("Felicitări!! Ai reușit să sortezi " + total.ToString() + " obiecte!!", "Felicitări!!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("FELICITĂRI!! AI REUȘIT SĂ SORTEZI " + total.ToString() + " OBIECTELE!!", "FELICITĂRI!!", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 
@@ -118,7 +118,7 @@ namespace IOC
                 sp.Play();
                 setEnabled(false);
                 pictureRepeta.Show();
-                MessageBox.Show("Felicitări ai reușit să sortezi toate obiectele!!", "Felicitări!!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("FELICITĂRI ai reușit să sortezi toate obiectele!!", "Felicitări!!", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 
@@ -279,7 +279,7 @@ namespace IOC
 
         private void workerForTimerIncepeSunetDeInceput_DoWork(object sender, System.ComponentModel.DoWorkEventArgs e)
         {
-            sp.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + @"..\..\recs\joc1.wav";
+            sp.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + @"..\..\recs\joc.wav";
             sp.Play();
             System.Threading.Thread.Sleep(19000);
         }
@@ -299,6 +299,7 @@ namespace IOC
             timeLeft = 15;
             timerGame.Start();
             pictureRepeta.Hide();
+            timeLabel.ForeColor = Color.Black;
         }
 
         private void setEnabled(bool var)
